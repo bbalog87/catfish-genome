@@ -1,2 +1,2 @@
-# African catfish genome
+# African catfish genome assembly
 African catfish (Clarias gariepinus) genome project
