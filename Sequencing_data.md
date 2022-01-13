@@ -1,6 +1,6 @@
-## Whole Genome Seqeuning Data
+# Whole Genome Seqeuning Data
 
-# PacBio HiFi Reads
+## PacBio HiFi Reads
 
 | HiFi samples  | Heterozygous peak  (k-mers depth) | Homozygous peak  (k-mers depth) | Est. genome  size (Mb) | Sequencing  Coverage | Heteozygosity rate |
 |---------------|:---------------------------------:|:-------------------------------:|:----------------------:|:--------------------:|:------------------:|
