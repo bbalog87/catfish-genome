@@ -2,7 +2,7 @@
 
 ## PacBio HiFi Reads
 
-| HiFi samples  | Heterozygous peak (k-mers depth) | Homozygous peak  (k-mers depth) | Est. genome  size (Mb) | Sequencing  Coverage | Heteozygosity rate |
+| Samples  | Heterozygous peak (k-mers depth) | Homozygous peak  (k-mers depth) | Est. genome  size (Mb) | Sequencing  Coverage | Heteozygosity rate |
 |---------------|:---------------------------------:|:-------------------------------:|:----------------------:|:--------------------:|:------------------:|
 | D01           |                 15                |                30               |          9638          |          26x         |        1,50%       |
 | E01           |                 15                |                30               |          9537          |          27x         |        1,33%       |
@@ -11,7 +11,7 @@
 |               |                                   |                                 |                        |                      |                    |
 
 
-| HiFi Samples | No. of  CCS Reads  | Total CCS Bases (bp) | CCS Reads N50 (bp) | CCS Mean Length (bp) | CCS Longest Read (bp) |
+| Samples | No. of  CCS Reads  | Total CCS Bases (bp) | CCS Reads N50 (bp) | CCS Mean Length (bp) | CCS Longest Read (bp) |
 |--------------|--------------------|----------------------|--------------------|----------------------|-----------------------|
 | D01          | 2,211,425            | 31,317,280,072          | 14,479              | 14,161                | 46,467                 |
 | E01          | 2,036,583            | 31,596,059,722          | 15,664              | 15,514                | 49,697                 |
