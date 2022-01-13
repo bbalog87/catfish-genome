@@ -1,4 +1,4 @@
-# Whole Genome Seqeuning Data
+# Whole Genome Sequencing Data
 
 ## PacBio HiFi Reads
 
