@@ -84,3 +84,27 @@ can be used to study post-WGD genome evolution and to determine the contribution
 - [Fish evolutionary genomics](http://igfl.ens-lyon.fr/equipes/j.-n.-volff-fish-evolutionary-genomics)
 
 > Tetraploydization/Rediploidization  | Sex Determination | TE evolution 
+
+
+
+- 2022 | [A high-resolution comparative atlas across 74 fish genomes illuminates teleost evolution after whole-genome duplication](https://www.biorxiv.org/content/10.1101/2022.01.13.476171v1.full.pdf)
+
+
+
+>> All teleost fish species descend from an ancient round of whole genome duplication (WGD), 
+dated 320 Mya (Jaillon et al. 2004). This dramatic evolutionary event, referred to as the teleost specific genome duplication (TGD), doubled all chromosomes and genes present in the teleost ancestor. The TGD has left a significant imprint on extant teleost genomes: while most duplicated genes have returned to a single-copy state, an important fraction of teleost genes remain in two copies, called ohnologs. 
+
+
+>> Importantly, the redundancy in fish genomes can be appreciated at the macrosyntenic level,  where remnants of ancestrally duplicated chromosomes form runs of large duplicated regions (Postlethwait et al. 2000; Taylor et al. 2003; Jaillon et al. 2004)
+
+
+>> In particular, autopolyploidization and allopolyploidization differentially shape the rediploidization process, i.e. how the polyploid  genome returns to a largely diploid state over time.
+
+
+>> The retention of redundant gene copies is also affected by the nature of the polyploidization event
+
+
+Personal comment  > we might have also rentention of duplicated genes in the african catfish that is why the busco duplicated orthologs rate is still high
+
+
+For the comparative phylogenomics we might need to use [SCORPIOs](https://academic.oup.com/mbe/article/37/11/3324/5859632) pipeline due to the duplication of gene in teleost that can biased the tree inference.
