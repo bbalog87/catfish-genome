@@ -8,6 +8,7 @@ Pipelines, code and ressources for creating a fully haplotype-resolved T2T assem
 - 2016 [The Atlantic salmon genome provides insights into rediploidization](https://www.nature.com/articles/nature17164)
 
 
+![img](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnature17164/MediaObjects/41586_2016_BFnature17164_Fig1_HTML.jpg?as=webp)
 
 
 # Previous studies on catfish species
