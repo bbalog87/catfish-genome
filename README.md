@@ -54,6 +54,9 @@ Pipelines, code and ressources for creating a fully haplotype-resolved T2T assem
 
 > The evolutionary rate of duplicate fish genes appears to be determined by 3 forces: 1) fish proteins evolve faster than mammalian orthologs; 2) the genes kept in double after genome duplication represent the subset under strongest purifying selection; and 3) following duplication, there is an asymmetric acceleration of evolutionary rate in one of the paralogs.
 
+
+
+
 - 2008 [Ancient and modern duplication events and the evolution of stearoyl-CoA desaturases in teleost fishes](https://journals.physiology.org/doi/full/10.1152/physiolgenomics.90266.2008)
 
 Idea: We might trace the evolutionary history of stearoyl-CoA desaturase since they are involved in food dieatary supplement
@@ -78,4 +81,6 @@ can be used to study post-WGD genome evolution and to determine the contribution
 > The channel catfish haploid genome contains 29 chromosomes with an estimated 1.0 Gb of DNA [13](https://scholar.google.com/scholar_lookup?title=Comparative%20karyology%20of%20three%20species%20of%20north%20American%20catfishes%20%28siluriformes%3A%20Ictaluridae%3A%20Ictalurus%29%20and%20four%20of%20their%20hybrid%20combinations&journal=Copeia&volume=1984&pages=873-878&publication_year=1984&author=LeGrande%2CW&author=Dunham%2CRA&author=Smitherman%2CRO),[14](https://academic.oup.com/jhered/article-abstract/84/2/122/819425) (Supplementary Fig. 1), and this diploid species is assumed to have undergone the teleost-specific genome duplication (TSGD) [15](https://www.nature.com/articles/nature05846),[16](https://onlinelibrary.wiley.com/doi/abs/10.1002/bies.20293)
 
 
-- 
+- Fish evolutionary genomics
+-
+> Tetraploydization/Rediploidization  | Sex Determination | TE evolution 
