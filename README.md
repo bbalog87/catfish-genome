@@ -113,7 +113,17 @@ dated 320 Mya (Jaillon et al. 2004). This dramatic evolutionary event, referred 
 >> The retention of redundant gene copies is also affected by the nature of the polyploidization event
 
 
-Personal comment  > we might have also rentention of duplicated genes in the african catfish that is why the busco duplicated orthologs rate is still high
+# Key notes
+
+#### 14.01.2022
+
+>> we might have also rentention of duplicated genes in the african catfish that is why the busco duplicated orthologs rate is still high
+
+>> For the comparative phylogenomics we might need to use [SCORPIOs](https://academic.oup.com/mbe/article/37/11/3324/5859632) pipeline due to the duplication of gene in teleost that can biased the tree inference.
+
+#### 15.01.2022
+
+>> Yes...The functional attributes of the retained genes and also african catfish specific genes. What make the African catfish particular?
 
 
-For the comparative phylogenomics we might need to use [SCORPIOs](https://academic.oup.com/mbe/article/37/11/3324/5859632) pipeline due to the duplication of gene in teleost that can biased the tree inference.
+>> Ok I think this is easy. 1) Identify paralogs in all catfish and classify them. ====> Check if some families of important genes are contained in this list. ====> Analyze their comparative evolution. 2) Analyse positive selection/evolution of paralogs in catfish. 3) Which genes are retained? What are their function? loss of function? Neofunctionalization?
