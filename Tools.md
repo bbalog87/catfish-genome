@@ -3,7 +3,7 @@
 ## Raw data processing
 - Fastp 0.23.2 (filtering/trimming Illumina PE150 reads) | [Paper](https://doi.org/10.1093/bioinformatics/bty560) | [Github](https://github.com/OpenGene/fastp)
 
-## K-mers-based geneome size estimation
+## K-mers-based genome size estimation
 
 - Jellyfish 2.3.0 | [Paper](https://pubmed.ncbi.nlm.nih.gov/21217122/) | [Github](https://github.com/gmarcais/Jellyfish/tree/develop/swig)
 - GenomeScope 2.0 | [Paper](https://www.nature.com/articles/s41467-020-14998-3) | [Github](https://github.com/tbenavi1/genomescope2.0)
