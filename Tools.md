@@ -11,7 +11,7 @@
 
 ## Assembly pipeline
 
-- HiFiasm 0.16.1 | [Paper](https://doi.org/10.1038/s41592-020-01056-5) | [Github](https://github.com/chhylp123/hifiasm)
+- Hifiasm 0.16.1 | [Paper](https://doi.org/10.1038/s41592-020-01056-5) | [Github](https://github.com/chhylp123/hifiasm)
 
 ## Assembly scaffolding
 
