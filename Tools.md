@@ -4,9 +4,9 @@
 
 ## K-mer size estimation
 
-- Jellyfish
-- GenomeScope
-- KAT
+- Jellyfish  | [Paper](https://pubmed.ncbi.nlm.nih.gov/21217122/) | [Github](https://github.com/gmarcais/Jellyfish/tree/develop/swig)
+- GenomeScope 2.0 | [Paper](https://www.nature.com/articles/s41467-020-14998-3) | [Github](https://github.com/tbenavi1/genomescope2.0)
+- KAT | [Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5408915/) | [Github](https://github.com/TGAC/KAT)
 
 ## Assembly pipeline
 
@@ -15,6 +15,9 @@
 ## Assembly scaffolding
 
 ## Assembly validation
+
+- Merqury | [Paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02134-9) | [Github](https://github.com/marbl/merqury)
+- BUSCO
 
 ## Repeats annotation
 
