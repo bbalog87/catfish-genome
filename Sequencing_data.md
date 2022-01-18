@@ -8,7 +8,7 @@
 | E01           |                 15                |                30               |          953.74          |          27x         |        1,33%       |
 | F01           |                 18                |                36               |          1000.21          |          33x         |        1,00%       |
 | D09           |                 14                |                28               |          992.35          |          25x         |        1,18%       |
-|  AB*          |                 63                |                131              |          980.95             |            108x          |          2.10%          |
+|  AB*          |                 63                |                131              |          980.95             |            108x          |          2.10%          
 *: Pooled clean HiFi Samples
 
 | Samples | No. of  CCS Reads  | Total CCS Bases (bp) | CCS Reads N50 (bp) | CCS Mean Length (bp) | CCS Longest Read (bp) |
