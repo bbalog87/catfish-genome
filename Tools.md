@@ -1,6 +1,7 @@
 # Tools employed for the African catfish genome project
 
 ## Raw data processing
+- fastp 0.23.2 (filtering/trimming Illumina PE150 reads) |[Paper](https://doi.org/10.1093/bioinformatics/bty560) | [Github](https://github.com/OpenGene/fastp)
 
 ## K-mer size estimation
 
