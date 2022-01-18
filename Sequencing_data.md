@@ -18,4 +18,4 @@
 | F01          | 2,412,675            | 39,687,531,924          | 16,729              | 16,449                | 50,388                 |
 | D09          | 1,848,783            | 30,198,310,813          | 16,599              | 16,334                | 49,901                 |
 
-***: Pooled clean HiFi Samples**
+***: AB is the pool of all four clean HiFi Samples**
