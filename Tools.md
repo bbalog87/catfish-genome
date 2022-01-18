@@ -17,7 +17,7 @@
 ## Assembly validation
 
 - Merqury | [Paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02134-9) | [Github](https://github.com/marbl/merqury)
-- BUSCO
+- BUSCO | [Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8476166/)
 
 ## Repeats annotation
 
