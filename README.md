@@ -72,6 +72,11 @@ Idea: We might trace the evolutionary history of stearoyl-CoA desaturase since t
 
 - 2012 [Polyploidy in Fish and the Teleost Genome Duplication](https://link.springer.com/chapter/10.1007%2F978-3-642-31442-1_17)
 - 2020 [The lasting after-effects of an ancient polyploidy on the genomes of teleosts](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0231356)
+
+>> The ancestor of most teleost fishes underwent a whole-genome duplication event three hundred million years ago. Despite its antiquity, the effects of this event are evident both in the structure of teleost genomes and in how **the surviving duplicated genes still operate to drive form and function**
+
+
+
 - 2020 [Genome of Tetraploid Fish Schizothorax o’connori Provides Insights into Early Re-diploidization and High-Altitude Adaptation](https://www.cell.com/iscience/pdf/S2589-0042(20)30689-1.pdf)
 
 
