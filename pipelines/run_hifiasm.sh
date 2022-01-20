@@ -25,6 +25,10 @@ HICreads2=/projekte/I3-PikeperchAssembly/CATFISH-PROJECT/21108D-01-01-01_S108_L0
 
 		  
 echo "===== PROCESSING $AB : Pool of all clean HiFi samples ========"
+
+
+
+/usr/bin/time -o out.ABrun.time.ram.txt -v \
 ./hifiasm -o AB.asm \
           -t 91 \
 		  --hg-size 1200m \
@@ -39,6 +43,7 @@ echo "===== PROCESSING $AB : Pool of all clean HiFi samples ========"
 
 
 echo "===== PROCESSING $D01 ========"
+/usr/bin/time -o out.D01run.time.ram.txt -v \
 ./hifiasm -o D01.asm \
           -t 91\
 		  --f-perturb 0.15 \
@@ -53,6 +58,7 @@ echo "===== PROCESSING $D01 ========"
 		  
 
 echo "===== PROCESSING $E01 ========"
+/usr/bin/time -o out.E01run.time.ram.txt -v \
 ./hifiasm -o E01.asm \
           -t 91 \
 		  --f-perturb 0.15 \
@@ -68,6 +74,7 @@ echo "===== PROCESSING $E01 ========"
 
 
 echo "===== PROCESSING $F01 ========"
+/usr/bin/time -o out.F01run.time.ram.txt -v \
 ./hifiasm -o F01.asm \
           -t 91 \
 		  --f-perturb 0.15 \
@@ -82,6 +89,7 @@ echo "===== PROCESSING $F01 ========"
 		  
 		  
 echo "===== PROCESSING $D09 ========"
+/usr/bin/time -o out.D09run.time.ram.txt -v \
 ./hifiasm -o D09.asm \
           -t 91 \
 		  --f-perturb 0.15 \
