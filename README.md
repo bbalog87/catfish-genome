@@ -15,11 +15,11 @@ Pipelines, code and ressources for creating a fully haplotype-resolved T2T assem
 
 
 - 2022 | A haplotype-resolved draft genome of the European sardine (Sardina pilchardus) | 10x Genomics | [paper](https://academic.oup.com/gigascience/article/8/4/giz030/5426571)
-- 2022 | African Arowana Genome Provides Insights on Ancient Teleost Evolution | stLFR + ONT + Hi-C| [paper](https://www.sciencedirect.com/science/article/pii/S2589004220308543)
+
 - 2021 | Asian Red-Tail Catfish | Hemibagrus wyckioides | Illumina + Nanopore + PacBio HiFi + Hi-C | [paper](https://www.frontiersin.org/articles/10.3389/fgene.2021.747684/full)
 
 - 2021 | striped catfish | Pangasianodon hypophthalmus | Illumina + Nanopore + Hi-C | [striped catfish updated genome paper](https://www.sciencedirect.com/science/article/pii/S0888754321003049)
-
+- 2020 | African Arowana Genome Provides Insights on Ancient Teleost Evolution | stLFR + ONT + Hi-C| [paper](https://www.sciencedirect.com/science/article/pii/S2589004220308543)
 - 2020 | Freshwater Apex Predator Wels Catfish | Silurus glanis | 10x Genomics | [freshwater apex genome paper](https://academic.oup.com/g3journal/article/10/11/3897/6048642)
 
 - 2019 | giant devil catfish | Bagarius yarrelli | Illumina + PacBio | [giant devil genome paper](https://academic.oup.com/gbe/article/11/8/2071/5528502)
