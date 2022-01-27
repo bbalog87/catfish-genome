@@ -11,12 +11,12 @@
 | % of detected core genes that have more than 1 ortholog | 1.27                                  |1.22| 4.24 |
 | **Length Statistics and Composition:**                  |                                       | 
 | Number of sequences                                     | 64                                    |	104 |183 |
-| Total length (nt)                                       | 970,894,268                             | 964,761,813 |
-| Longest sequence (nt)                                   | 55,314,054                              |47,780,921 |
-| Shortest sequence (nt)                                  | 3148                                  | 3148 |
-| Mean sequence length (nt)                               | 15,170,223                              |9,276,556 |
-| Median sequence length (nt)                             | 5,685,750                             |1,451,789 |
-| N50 sequence length (nt)                                | 32,624,131                              |
+| Total length (nt)                                       | 970,894,268                             | 964,761,813 |932,075,630 |
+| Longest sequence (nt)                                   | 55,314,054                              |47,780,921 |48,919,592 |
+| Shortest sequence (nt)                                  | 3148                                  | 3148 |16,525 |
+| Mean sequence length (nt)                               | 15,170,223                              |9,276,556 |5,093,309|
+| Median sequence length (nt)                             | 5,685,750                             |1,451,789 |1,077,530 |
+| N50 sequence length (nt)                                | 32,624,131                              |29,524,765 |16,703,770 |
 | L50 sequence count                                      | 12                                    |
 | Number of sequences > 1K (nt)                           | 64 (100.0% of total number)           |
 | Number of sequences > 10K (nt)                          | 63 (98.4% of total number)            |
