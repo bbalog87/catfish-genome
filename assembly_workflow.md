@@ -1,6 +1,6 @@
 
 
-| Completeness Assessment Results:                        |                                       |
+| **Completeness Assessment Results:**                        |                                       |
 |---------------------------------------------------------|---------------------------------------|
 | Total number of core genes queried                      | 3640                                  |
 | Number of core genes detected                           |                                       |
@@ -31,8 +31,7 @@
 |                                                         | T: 30.49                              |
 |                                                         | G: 19.50                              |
 |                                                         | C: 19.50                              |
-|                                                         | N: 0.00  Gap length distribution      |
-|                                                         | Other: 0.00                           |
+|                                                         | N: 0.00        |
 | Number of gaps (>=5 N's)                                | 0                                     |
 | GC-content (%)                                          | 39.00                                 |
 | Number of non-ACGTN (nt)                                | 0                                     |
