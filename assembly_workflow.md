@@ -9,7 +9,7 @@
 | Number of missing core genes                            | 77 (2.12%)                            | 89 (2.45%)	 | 314 (8.63%) |
 | Average number of orthologs per core genes              | 1.02                                  | 1.01 |1.05 | 
 | % of detected core genes that have more than 1 ortholog | 1.27                                  |1.22| 4.24 |
-| Scores in BUSCO format                                  | C:97.4%[S:96.2%,D:1.2%],F:0.4%,M:2.2% |C:96.9%[S:95.7%,D:1.2%],F:0.6%,M:2.5% |
+| Scores in BUSCO format                                  | C:97.4%[S:96.2%,D:1.2%],F:0.4%,M:2.2% |C:96.9%[S:95.7%,D:1.2%],F:0.6%,M:2.5% |C:90.6%[S:86.8%,D:3.8%],F:0.7%,M:8.7% |
 | **Length Statistics and Composition:**                  |                                       | 
 | Number of sequences                                     | 64                                    |
 | Total length (nt)                                       | 970894268                             |
