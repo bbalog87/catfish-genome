@@ -1,4 +1,5 @@
 # Whole Genome Sequencing Data
+ Generated genomic sequencing data include Illumina paired-end 150 (Hiseq X ten), PacBio’s long high-fidelity (HiFi) reads Oxford Nanopore (ONT)ultra long reads ad Hi-C data.
 
 ## PacBio HiFi Reads
 
