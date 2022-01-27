@@ -4,7 +4,7 @@ Generated genomic sequencing data include Illumina paired-end 150 (Hiseq X ten),
 ## PacBio HiFi Reads
 DNA extracxted from African catfish muscle tissues was used to prepare four diffrent libaries for sequening an the Sequel IIe plarform. D01, E01, F01, and D09 are the samples name. AB is the pool of all four clean HiFi libraries after sequencing. 
 
-| Samples  | Heterozygous peak (k-mers depth) | Homozygous peak (k-mers depth) | Est. genome size (Mb) | Sequencing coverage | Heterozygosity rate |
+| Samples  | Heterozygous peak (k-mers depth) | Homozygous peak (k-mers depth) | Est. genome size (Mb) | Sequencing depth | Heterozygosity rate |
 |---------------|:---------------------------------:|:-------------------------------:|:----------------------:|:--------------------:|:------------------:|
 | D01           |                 15                |                30               |          963.82          |          26x         |        1,50%       |
 | E01           |                 15                |                30               |          953.74          |          27x         |        1,33%       |
