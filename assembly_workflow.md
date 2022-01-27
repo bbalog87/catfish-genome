@@ -33,5 +33,4 @@
 | GC-content (%)                                          | 39.00          | 38.98| 38.98 |                      
 
 
-Primary assembly :
-Haplotype- and Haplotype-2 are ...
+**Primary assembly** is pseudo-haplotype assembly with alterning long stretches of phased blocks, that captures both the homozygous regions along with a single copy of the heterozygous alleles. **Haplotype-1** and **Haplotype-2** are Haplotype-resolved assembly consisting of haplotigs, representing entire diploid genome. Hence, halplotype-1 and Haplotype-2 represent the two paternal haplotypes (undetermined).
