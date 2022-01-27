@@ -10,7 +10,7 @@
 | Average number of orthologs per core genes              | 1.02                                  |
 | % of detected core genes that have more than 1 ortholog | 1.27                                  |
 | Scores in BUSCO format                                  | C:97.4%[S:96.2%,D:1.2%],F:0.4%,M:2.2% |
-|---------------------------------------------------------|---------------------------------------|
+|--- |--- |
 | **Length Statistics and Composition:**                  |                                       |
 | Number of sequences                                     | 64                                    |
 | Total length (nt)                                       | 970894268                             |
