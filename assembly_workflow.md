@@ -3,13 +3,13 @@
 | **Completeness Assessment Results:**                    |   Primary                            | Haplotype-1 | Haplotype-2 |
 |---------------------------------------------------------|---------------------------------------|------------|-------------|
 | Total number of core genes queried                      | 3640                                  |3640 | 3640 |
-| Number of core genes detected                           |                                       |
-|   Complete                                              | 3547 (97.45%)                         |
-|   Complete + Partial                                    | 3563 (97.88%)                         |
-| Number of missing core genes                            | 77 (2.12%)                            |
-| Average number of orthologs per core genes              | 1.02                                  |
-| % of detected core genes that have more than 1 ortholog | 1.27                                  |
-| Scores in BUSCO format                                  | C:97.4%[S:96.2%,D:1.2%],F:0.4%,M:2.2% |
+| Number of core genes detected                           |                                       ||
+|   Complete                                              | 3547 (97.45%)                         |  3528 (96.92%)|
+|   Complete + Partial                                    | 3563 (97.88%)                         |3551 (97.55%) |
+| Number of missing core genes                            | 77 (2.12%)                            | 89 (2.45%)	 |
+| Average number of orthologs per core genes              | 1.02                                  | 1.01 |
+| % of detected core genes that have more than 1 ortholog | 1.27                                  |1.22|
+| Scores in BUSCO format                                  | C:97.4%[S:96.2%,D:1.2%],F:0.4%,M:2.2% |C:96.9%[S:95.7%,D:1.2%],F:0.6%,M:2.5% |
 | **Length Statistics and Composition:**                  |                                       |
 | Number of sequences                                     | 64                                    |
 | Total length (nt)                                       | 970894268                             |
