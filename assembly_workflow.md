@@ -4,9 +4,9 @@
 |---------------------------------------------------------|---------------------------------------|------------|-------------|
 | Total number of core genes queried                      | 3640                                  |3640 | 3640 |
 | Number of core genes detected                           |                                       | | |
-|   Complete                                              | 3547 (97.45%)                         |  3528 (96.92%)|	3301 (90.69%)|
-|   Complete + Partial                                    | 3563 (97.88%)                         |3551 (97.55%) |3326 (91.37%)|
-| Number of missing core genes                            | 77 (2.12%)                            | 89 (2.45%)	 | 314 (8.63%) |
+|   Complete                                              | **3547 (97.45%)**                         |  3528 (96.92%)|	3301 (90.69%)|
+|   Complete + Partial                                    | **3563 (97.88%)**                         |3551 (97.55%) |3326 (91.37%)|
+| Number of missing core genes                            | **77 (2.12%)**                            | 89 (2.45%)	 | 314 (8.63%) |
 | Average number of orthologs per core genes              | 1.02                                  | 1.01 |1.05 | 
 | % of detected core genes that have more than 1 ortholog | 1.27                                  |1.22| 4.24 |
 | **Length Statistics and Composition:**                  |                                       | 
