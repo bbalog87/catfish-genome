@@ -1,6 +1,6 @@
 
 
-| **Completeness Assessment Results:**                    |   Primary                            | Haplotype 1 | Haplotype 2 |
+| **Completeness Assessment Results:**                    |   Primary                            | Haplotype-1 | Haplotype-2 |
 |---------------------------------------------------------|---------------------------------------|------------|-------------|
 | Total number of core genes queried                      | 3640                                  |
 | Number of core genes detected                           |                                       |
