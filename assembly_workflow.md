@@ -17,19 +17,19 @@
 | Mean sequence length (nt)                               | 15,170,223                              |9,276,556 |5,093,309|
 | Median sequence length (nt)                             | 5,685,750                             |1,451,789 |1,077,530 |
 | N50 sequence length (nt)                                | 32,624,131                              |29,524,765 |16,703,770 |
-| L50 sequence count                                      | 12                                    |
-| Number of sequences > 1K (nt)                           | 64 (100.0% of total number)           |
-| Number of sequences > 10K (nt)                          | 63 (98.4% of total number)            |
-| Number of sequences > 100K (nt)                         | 52 (81.2% of total number)            |
-| Number of sequences > 1M (nt)                           | 35 (54.7% of total number)            |
-| Number of sequences > 10M (nt)                          | 31 (48.4% of total number)            |
-| Sum length of sequences > 1M (nt)                       | 962,326,493 (99.1% of total length)     |
-| Sum length of sequences > 10M (nt)                      | 952,569,153 (98.1% of total length)     |
-| Base composition (%)                                    | A: 30.51                              |
-|                                                         | T: 30.49                              |
-|                                                         | G: 19.50                              |
-|                                                         | C: 19.50                              |
-|                                                         | N: 0.00        |
-| Number of gaps (>=5 N's)                                | 0                                     |
-| GC-content (%)                                          | 39.00                                 |
-| Number of non-ACGTN (nt)                                | 0                                     |
+| L50 sequence count                                      | 12                                    |15 |
+| Number of sequences > 1K (nt)                           | 64 (100.0% of total number)           |104 (100.0% of total number)|
+| Number of sequences > 10K (nt)                          | 63 (98.4% of total number)            | 102 (98.1% of total number) |
+| Number of sequences > 100K (nt)                         | 52 (81.2% of total number)            |79 (76.0% of total number) |
+| Number of sequences > 1M (nt)                           | 35 (54.7% of total number)            | 	54 (51.9% of total number) |
+| Number of sequences > 10M (nt)                          | 31 (48.4% of total number)            | 31 (29.8% of total number) |
+| Sum length of sequences > 1M (nt)                       | 962,326,493 (99.1% of total length)     | 952762150 (98.8% of total length)|
+| Sum length of sequences > 10M (nt)                      | 952,569,153 (98.1% of total length)     | 853437365 (88.5% of total length)|
+| Base composition (%)                                    | A: 30.51                              |A: 30.51|
+|                                                         | T: 30.49                              |T: 30.51|
+|                                                         | G: 19.50                              |G: 19.50|
+|                                                         | C: 19.50                              |C: 19.48|
+|                                                         | N: 0.00        |N: 0.00 |
+| Number of gaps (>=5 N's)                                | 0              | 0|                       
+| GC-content (%)                                          | 39.00          | 38.98|                       
+| Number of non-ACGTN (nt)                                | 0              | 0|                      
