@@ -1,7 +1,7 @@
 
 
-| **Completeness Assessment Results:**                    |   Primary                            |
-|---------------------------------------------------------|---------------------------------------|
+| **Completeness Assessment Results:**                    |   Primary                            | Haplotype 1 |
+|---------------------------------------------------------|---------------------------------------| |
 | Total number of core genes queried                      | 3640                                  |
 | Number of core genes detected                           |                                       |
 |   Complete                                              | 3547 (97.45%)                         |
