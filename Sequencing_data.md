@@ -1,7 +1,7 @@
 # Whole Genome Sequencing Data
 Generated genomic sequencing data include Illumina paired-end 150 (Hiseq X ten), PacBio’s long high-fidelity (HiFi) reads Oxford Nanopore (ONT)ultra long reads ad Hi-C data.
 
-## PacBio HiFi Reads
+## PacBio HiFi Reads Data
 DNA extracxted from African catfish muscle tissues was used to prepare four diffrent libaries for sequening an the Sequel IIe plarform. D01, E01, F01, and D09 are the samples name. AB is the pool of all four clean HiFi libraries after sequencing. 
 
 | Samples  | Heterozygous peak (k-mers depth) | Homozygous peak (k-mers depth) | Est. genome size (Mb) | Sequencing depth | Heterozygosity rate |
@@ -21,3 +21,13 @@ DNA extracxted from African catfish muscle tissues was used to prepare four diff
 | D09          | 1,848,783            | 30,198,310,813          | 16,599              | 16,334                | 49,901                 |
 | AB           |                      |                         |                     |                       |                         |
 
+## Nanopore sequencing Reads Data
+
+
+## Illunina PE150 Reads Data
+
+
+## IHi-C Reads Data
+
+
+# Trancriptome (mRNA) Sequencing Data
