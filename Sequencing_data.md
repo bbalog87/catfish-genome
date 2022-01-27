@@ -27,7 +27,7 @@ DNA extracxted from African catfish muscle tissues was used to prepare four diff
 ## Illunina PE150 Reads Data
 
 
-## IHi-C Reads Data
+## Hi-C Reads Data
 
 
 # Trancriptome (mRNA) Sequencing Data
