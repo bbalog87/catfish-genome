@@ -24,7 +24,7 @@
 | Number of sequences > 1M (nt)                           | 35 (54.7% of total number)            | 	54 (51.9% of total number) |93 (50.8% of total number)|
 | Number of sequences > 10M (nt)                          | 31 (48.4% of total number)            | 31 (29.8% of total number) |32 (17.5% of total number)|
 | Sum length of sequences > 1M (nt)              | 962,326,493 (99.1% of total length)|952762150 (98.8% of total length)| 907238133 (97.3% of total length)|
-| Sum length of sequences > 10M (nt)                      | 952,569,153 (98.1% of total length)     | 853437365 (88.5% of total length)|
+| Sum length of sequences > 10M (nt)             | 952,569,153 (98.1% of total length)     | 853437365 (88.5% of total length)|657182992 (70.5% of total length)|
 | Base composition (%)                                    | A: 30.51                              |A: 30.51|
 |                                                         | T: 30.49                              |T: 30.51|
 |                                                         | G: 19.50                              |G: 19.50|
