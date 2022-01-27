@@ -10,7 +10,7 @@
 | Average number of orthologs per core genes              | 1.02                                  | 1.01 |1.05 | 
 | % of detected core genes that have more than 1 ortholog | 1.27                                  |1.22| 4.24 |
 | **Length Statistics and Composition:**                  |                                       | 
-| Number of sequences                                     | 64                                    |	104 |
+| Number of sequences                                     | 64                                    |	104 |183 |
 | Total length (nt)                                       | 970,894,268                             | 964,761,813 |
 | Longest sequence (nt)                                   | 55,314,054                              |47,780,921 |
 | Shortest sequence (nt)                                  | 3148                                  | 3148 |
