@@ -31,3 +31,7 @@
 |                                                         | C: 19.50                              |C: 19.48|C: 19.49|
 |                                                         | N: 0.00        |N: 0.00 |N: 0.00 |    
 | GC-content (%)                                          | 39.00          | 38.98| 38.98 |                      
+
+
+Primary assembly :
+Haplotype- and Haplotype-2 are ...
