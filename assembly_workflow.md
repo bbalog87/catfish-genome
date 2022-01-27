@@ -1,6 +1,6 @@
 
 
-| **Completeness Assessment Results:**                        |                                       |
+| **Completeness Assessment Results:**                    |   Primary                            |
 |---------------------------------------------------------|---------------------------------------|
 | Total number of core genes queried                      | 3640                                  |
 | Number of core genes detected                           |                                       |
