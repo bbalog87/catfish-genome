@@ -25,11 +25,11 @@
 | Number of sequences > 10M (nt)                          | 31 (48.4% of total number)            | 31 (29.8% of total number) |32 (17.5% of total number)|
 | Sum length of sequences > 1M (nt)              | 962,326,493 (99.1% of total length)|952762150 (98.8% of total length)| 907238133 (97.3% of total length)|
 | Sum length of sequences > 10M (nt)             | 952,569,153 (98.1% of total length)     | 853437365 (88.5% of total length)|657182992 (70.5% of total length)|
-| Base composition (%)                                    | A: 30.51                              |A: 30.51|
-|                                                         | T: 30.49                              |T: 30.51|
-|                                                         | G: 19.50                              |G: 19.50|
-|                                                         | C: 19.50                              |C: 19.48|
-|                                                         | N: 0.00        |N: 0.00 |
-| Number of gaps (>=5 N's)                                | 0              | 0|                       
-| GC-content (%)                                          | 39.00          | 38.98|                       
-| Number of non-ACGTN (nt)                                | 0              | 0|                      
+| Base composition (%)                                    | A: 30.51                              |A: 30.51|A: 30.50|
+|                                                         | T: 30.49                              |T: 30.51|T: 30.52|
+|                                                         | G: 19.50                              |G: 19.50|G: 19.49|
+|                                                         | C: 19.50                              |C: 19.48|C: 19.49|
+|                                                         | N: 0.00        |N: 0.00 |N: 0.00 |
+| Number of gaps (>=5 N's)                                | 0              | 0|  0 |                    
+| GC-content (%)                                          | 39.00          | 38.98| 38.98 |                      
+| Number of non-ACGTN (nt)                                | 0              | 0|   0|                   
