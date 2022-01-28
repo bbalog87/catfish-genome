@@ -3,7 +3,9 @@ Pipelines, code and ressources for creating a fully haplotype-resolved T2T assem
 
 # Salmon genome
 
+- Big guy regarding Salmon genome - [Craig Primmer](https://scholar.google.com/citations?hl=fr&user=peGg0YEAAAAJ&view_op=list_works&sortby=pubdate)
 
+- [Sex-specific lipid profiles in the muscle of Atlantic salmon juveniles](https://www.sciencedirect.com/science/article/pii/S1744117X21000228#f0015)
 
 - 2016 [The Atlantic salmon genome provides insights into rediploidization](https://www.nature.com/articles/nature17164)
 
