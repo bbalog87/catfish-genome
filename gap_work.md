@@ -102,4 +102,4 @@ ANNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 ```
 
 
-So I am now very sure about the exact position of the gap in the scaffold 1. In conclusion we have 531 N that were inseted in the scaffold1 from 35921823 to 35922323.
+So I am now very sure about the exact position of the gap in the scaffold 1. In conclusion we have 531 Ns that were inserted in the scaffold1 from 35921823 to 35922323.
