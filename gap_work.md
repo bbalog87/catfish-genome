@@ -81,7 +81,7 @@ NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 
 
 
-So we got 500 N to fill or not. I would like to suggest to rerun LG gapcloser using only the scaffold1 and the canu-cleaned oxford nanopore data. Or option 2, map the illumina data, oxford nanopore and hifi data onto the scaffold 1 and visualize in IGV and cross cheched the targeted region. Or option 3 use the canu assembly of ONT the aligned with mummer and get the posisiton that covered the map. design a primer and check by doing a PCR.
+So we got 500 N to fill or not. I would like to suggest to rerun LG gapcloser using only the scaffold1 and the canu-cleaned oxford nanopore data. Or option 2, map the illumina data, oxford nanopore and hifi data onto the scaffold 1 and visualize in IGV and cross cheched the targeted region. Or option 3 use the canu assembly of ONT and align with mummer and get the posisiton that covered the map. Design a primer and check by doing a PCR.
 
 
 
