@@ -1,5 +1,5 @@
 
-# Extract the 28 largest scaffolds
+### Extract the 28 largest scaffolds
 
 ```python
 
@@ -7,8 +7,36 @@ seqtk subseq AB.prim.scaff_FINAL.gapfilled.fa 28.list > 2_8.fasta
 
 ```
 
+### Check the assembly stats
 
-# Get the gap position
+
+```python
+
+assembly-stats 2_8.fasta
+
+```
+
+
+I got this
+
+
+```python
+
+stats for 2_8.fasta
+sum = 960667316, n = 28, ave = 34309547.00, largest = 52273159
+N50 = 33728944, n = 12
+N60 = 32181005, n = 15
+N70 = 30627632, n = 18
+N80 = 29619443, n = 21
+N90 = 25968190, n = 25
+N100 = 21035469, n = 28
+N_count = 500
+Gaps = 1
+
+```
+
+
+### Get the gap position
 
 
 ```python
@@ -18,7 +46,7 @@ perl -ne 'chomp;if( />(.*)/){$head = $1; $i=0; next};@a=split("",$_); foreach(@a
 ```
 
 
-# The resulting position was 
+### The resulting position was 
 
 ```python
 
@@ -51,7 +79,7 @@ NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 ```
 
 
-# Counting the number of N
+### Counting the number of N
 
 ```python
 
@@ -76,7 +104,7 @@ So we got 531 N to fill. So 531 bp to find. I would like to suggest to rerun LG 
 
 
 
-# Verification step
+### Verification step
 
 
 Just to check I change the positon in the bed file  like start-1 and end+1 (scaffold_1:35921822-35922324) to see if my script missed some N
