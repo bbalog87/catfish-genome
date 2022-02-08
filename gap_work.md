@@ -35,6 +35,7 @@ Gaps = 1
 
 ```
 
+The gap is in somewhere in the 28 scaffolds. Let's check where it is.
 
 ### Get the gap position
 
