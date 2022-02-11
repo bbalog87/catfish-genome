@@ -251,8 +251,8 @@ Telomeres found: 22 (11 forward, 11 reverse)
 ### Comments:
 
 
-- Perfect! the Banana genome is T2T but not really gapless as they mentionned in the paper.
-- FindTelomere python script is working very well though
+- Perfect! the Banana genome is T2T but not really gapless as they mentionned in the [paper](https://www.nature.com/articles/s42003-021-02559-3#Sec11).
+- FindTelomere python script is working very well though.
 - So I can say we simply failed to reach some telomere sequence at the present stage.
 
 
