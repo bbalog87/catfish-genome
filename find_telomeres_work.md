@@ -329,7 +329,7 @@ Output:
 
 ```python
 ##########
-104 sequences to analyze for telomeric repeats (TTAGGG/CCCTAA) in file ../../AB.hap1.fa
+104 sequences to analyze for telomeric repeats (TTAGGG/CCCTAA) in file AB.hap1.fa
 ##########
 
 h1tg000004l_1 	 Forward (start of sequence) 	 AACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAA
@@ -366,7 +366,7 @@ Output:
 ```python
 
 ##########
-183 sequences to analyze for telomeric repeats (TTAGGG/CCCTAA) in file ../../AB.hap2.fa
+183 sequences to analyze for telomeric repeats (TTAGGG/CCCTAA) in file AB.hap2.fa
 ##########
 
 h2tg000003l_1_1 	 Reverse (end of sequence) 	 AGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAG
@@ -397,7 +397,7 @@ Output:
 ```python
 
 ##########
-827 sequences to analyze for telomeric repeats (TTAGGG/CCCTAA) in file ../../../shasta/shasta.ONTonly/Assembly.fasta
+827 sequences to analyze for telomeric repeats (TTAGGG/CCCTAA) in file shasta.ONT.asm.fasta
 ##########
 
 852 length 60891 	 Reverse (end of sequence) 	 TTATGGTTAGGGGTAGGTTAAGATTAGGAATAGGTAAGGGTGGGGGCTAG
