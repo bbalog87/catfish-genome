@@ -260,5 +260,151 @@ Telomeres found: 22 (11 forward, 11 reverse)
 
 let's check the organ base assembly using pacbio hifi and hic data/ primary assembly. we can screen each of them for telomere search then we can see if by chance, one of them is better in term of T2T stuff.
 
+## Try to find out telomeres in the HiFi-assembly.
+
+- check the assembly stats
+``` bash 
+assembly-stats AB.prim.fa
+
+````
+**Results:**
+
+```python
+
+stats for AB.prim.fa
+sum = 970894268, n = 64, ave = 15170222.94, largest = 55314054
+N50 = 32624131, n = 12
+N60 = 30440209, n = 16
+N70 = 29619443, n = 19
+N80 = 26595296, n = 22
+N90 = 22011831, n = 26
+N100 = 3148, n = 64
+N_count = 0
+Gaps = 0
+```
 
 
+### Try to find out telomeres in the unscaffold sequences.
+
+- Primary assembly
+
+```python
+
+python FindTelomeres.py AB.prim.fa
+
+
+```
+
+Output:
+
+```python
+
+##########
+64 sequences to analyze for telomeric repeats (TTAGGG/CCCTAA) in file AB.prim.fa
+##########
+
+ptg000002l_1 	 Forward (start of sequence) 	 CTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCT
+ptg000003l_1 	 Reverse (end of sequence) 	 TTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTT
+ptg000012l_1 	 Forward (start of sequence) 	 AACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAA
+ptg000013l_1 	 Forward (start of sequence) 	 AACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAA
+ptg000020l_1 	 Forward (start of sequence) 	 TAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTA
+ptg000021l_1 	 Forward (start of sequence) 	 CTAACCCTAACCTAACCCTAACCCTAACCCTAACCCTAACCCCTAACCCT
+ptg000028l_1 	 Forward (start of sequence) 	 AACCCTGAACCTACCCTACCCCCTCACCCTACCCCTACCCAAACCCTAAC
+ptg000071l_1 	 Forward (start of sequence) 	 CTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCCTAACCC
+ptg000078l_1 	 Reverse (end of sequence) 	 GTTAGGGTAGGGTTAGGGTCTAGGGTTCAGGGTTAGGGTTAGGGTAGGGT
+ptg000082l_1 	 Reverse (end of sequence) 	 TAGAGGGTTTAGGGTTAGGTTAGGGTTTAGGGTTAGGGTTAGTAGGGTTA
+ptg000142l_1 	 Reverse (end of sequence) 	 TAGGGTTAGGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTT
+ptg000179l_1 	 Reverse (end of sequence) 	 TAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGGTT
+```
+No single contig captured telomeric ends in Primary Hifiasm assembly!
+- Haploytype 1 assembly
+
+```python
+
+python FindTelomeres.py AB.hap1.fa
+
+
+```
+Output:
+
+```python
+##########
+104 sequences to analyze for telomeric repeats (TTAGGG/CCCTAA) in file ../../AB.hap1.fa
+##########
+
+h1tg000004l_1 	 Forward (start of sequence) 	 AACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAA
+h1tg000014l_1 	 Reverse (end of sequence) 	 GGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGG
+h1tg000019l_1 	 Forward (start of sequence) 	 AACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAA
+h1tg000020l_1 	 Reverse (end of sequence) 	 GTTAGGGTAGGGTTAGGGTCTAGGGTTCAGGGTTAGGGTTAGGGTAGGGT
+h1tg000027l_1 	 Forward (start of sequence) 	 CTAACCCTAACCCTAACCCAACCTAACCCTAACCCTAACCCTAACCCCTA
+h1tg000028l_1 	 Forward (start of sequence) 	 TAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTA
+h1tg000029l_1 	 Forward (start of sequence) 	 CTAACCCTAACCTAACCCTAACCCTAACCCTAACCCTAACCCCTAACCCT
+h1tg000039l_1 	 Reverse (end of sequence) 	 GTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGT
+h1tg000054l_1 	 Reverse (end of sequence) 	 GTTAGGGTTTGGGTAGGGGTAGGGTGAGGGGGTAGGGTAGGTTCAGGGTT
+h1tg000103l_1 	 Reverse (end of sequence) 	 GGGTTGGGGGAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGG
+h1tg000147l_1 	 Forward (start of sequence) 	 CTAACCCTAACCCTAAACCCTAACCCTAACCCTAACCCTAACCCTAACCC
+h1tg000155l_1 	 Forward (start of sequence) 	 CCCTAACCCAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCC
+h1tg000214l_1 	 Reverse (end of sequence) 	 GGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGG
+h1tg000356l_1 	 Reverse (end of sequence) 	 TAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGGTT
+h1tg000388l_1 	 Reverse (end of sequence) 	 GTAGGGTTAGGGTAGAGGGCTAGGGGTAGGGGTAGGTTTAGGGTGTGGGG
+
+Telomeres found: 15 (7 forward, 8 reverse)
+```
+Only contig h1tg000014l_1 seems to have captured telomeric ends in hap1 Hifiasm-assembly!
+
+- Haploytype 2 assembly
+
+```python
+
+python FindTelomeres.py AB.hap2.fa
+
+
+```
+
+- Output:
+
+```python
+
+##########
+183 sequences to analyze for telomeric repeats (TTAGGG/CCCTAA) in file ../../AB.hap2.fa
+##########
+
+h2tg000003l_1_1 	 Reverse (end of sequence) 	 AGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAG
+h2tg000013l_1_1 	 Forward (start of sequence) 	 AACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAACCCTAA
+h2tg000046l_1_1 	 Reverse (end of sequence) 	 AGGGTTAGGGTATTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTT
+h2tg000077l_1_1 	 Reverse (end of sequence) 	 TTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTT
+h2tg000162l_1_1 	 Reverse (end of sequence) 	 GGGTTAGGGTTAGGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAGGGTTAG
+h2tg000212l_1_1 	 Reverse (end of sequence) 	 TAGAGGGTTTAGGGTTAGGTTAGGGTTTAGGGTTAGGGTTAGTAGGGTTA
+h2tg000285l_1_1 	 Forward (start of sequence) 	 CCTAACCCTAACCCTCACCCTAACCCTCAACCTAACCCTACCCCTAACCC
+
+Telomeres found: 7 (2 forward, 5 reverse)
+
+```
+
+Only contig h2tg000003l_1_1 seems to have captured telomeric ends in hap2 Hifiasm-assembly!
+
+### Comments
+Obviously, hifiasm couldn't assembly the chromosomes ends. But where are these reads? We should at leats found these reads in the assembly!! 
+Were these regions covered during sequening? I've checkd in shasta-assembly based on ONT ong redas:
+```python
+
+python FindTelomeres.py shasta.ONT.asm.fasta
+
+```
+
+Output:
+
+```python
+
+##########
+827 sequences to analyze for telomeric repeats (TTAGGG/CCCTAA) in file ../../../shasta/shasta.ONTonly/Assembly.fasta
+##########
+
+852 length 60891 	 Reverse (end of sequence) 	 TTATGGTTAGGGGTAGGTTAAGATTAGGAATAGGTAAGGGTGGGGGCTAG
+1494 length 2133 	 Reverse (end of sequence) 	 TTATGGTTAGGGGTAGGTTAAGATTAGGAATAGGTAAGGGTGGGGGCTAG
+
+Telomeres found: 2 (0 forward, 2 reverse)
+
+```
+
+As we cannsee it's even worts in the fasta assembly. Onlöy two contig have partial telomeric end. Let's barin strom on this issue...
