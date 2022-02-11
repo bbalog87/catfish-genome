@@ -361,7 +361,7 @@ python FindTelomeres.py AB.hap2.fa
 
 ```
 
-- Output:
+Output:
 
 ```python
 
