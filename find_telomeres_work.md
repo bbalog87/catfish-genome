@@ -156,7 +156,7 @@ Telomeres found: 12 (5 forward, 7 reverse)
 - if yes (high probability) then we might need to check the hi-c heatmap using hi-Pro to visualize and proceed to a rapid curation if necessary (I think it will be not necessary here).
  
  
-### Just by curiosity, I try to check the T2T status of the Banana genome
+### Just by curiosity, I tried to check the T2T status of the Banana genome
 
 
 ### Download the data
