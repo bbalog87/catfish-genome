@@ -135,3 +135,8 @@ dated 320 Mya (Jaillon et al. 2004). This dramatic evolutionary event, referred 
 
 
 >> Ok I think this is easy. 1) Identify paralogs in all catfish and classify them. ====> Check if some families of important genes are contained in this list. ====> Analyze their comparative evolution. 2) Analyse positive selection/evolution of paralogs in catfish. 3) Which genes are retained? What are their function? loss of function? Neofunctionalization?
+
+
+# BUSCO assement papers
+- [Feron & Waterhouse] (https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac006/6537158?login=false)
+
