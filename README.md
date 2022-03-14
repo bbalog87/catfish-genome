@@ -138,5 +138,5 @@ dated 320 Mya (Jaillon et al. 2004). This dramatic evolutionary event, referred 
 
 
 # BUSCO assement papers
-- [Feron & Waterhouse] (https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac006/6537158?login=false)
+- [Feron & Waterhouse](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac006/6537158?login=false)
 
