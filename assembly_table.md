@@ -15,3 +15,24 @@ Table 1: Assembly statistics of chromosomal-scale
 | L90       | 25                | 25                  | 25                  |
 | N_count | 18508478          | 1212793             | 0                   |
 | Gaps     | 531               | 277                 | 0                   |
+
+
+
+
+## For contaminant removal
+
+|                                                     | URL                                                      |
+| --------------------------------------------------- | -------------------------------------------------------- |
+| Bacteria                                            | ftp://ftp.ncbi.nlm.nih.gov/genomes/Bacteria/             |
+|                                                     |ftp://ftp.ncbi.nlm.nih.gov/genomes/Bacteria\_DRAFT/
+| Organelle                                           | ftp://ftp.ncbi.nlm.nih.gov/refseq/release/mitochondrion/ |
+|                                                     |ftp://ftp.ncbi.nlm.nih.gov/refseq/release/plastid/ 
+
+
+
+### For QC
+
+- Merqury
+- LAI
+- BUSCO
+- Mummer plot
