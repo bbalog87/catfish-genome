@@ -12,6 +12,6 @@ Table 1: Assembly statistics of chromosomal-scale
 | N70 (Mbp)      | 30.33             | 30.86               | 30.62               |
 | N80 (Mbp)      | 27.52             | 29.48               | 29.61               |
 | N90 (Mbp)      | 26.32             | 26.20               | 25.96               |
-| L90 (Mbp)      | 25                | 25                  | 25                  |
+| L90       | 25                | 25                  | 25                  |
 | N_count | 18508478          | 1212793             | 0                   |
 | Gaps     | 531               | 277                 | 0                   |
