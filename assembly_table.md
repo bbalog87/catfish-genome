@@ -36,3 +36,6 @@ Table 1: Assembly statistics of chromosomal-scale
 - LAI
 - BUSCO
 - Mummer plot
+- K-mer completeness
+- Reads mappability 
+- Number of phased blocks (Merqury).
