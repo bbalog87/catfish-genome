@@ -64,7 +64,7 @@ RNA-seq reads clean and do not need further filtering aor trimming for downstrea
 
 
 ### 1)- Trancriptome assembly
-#### De novo assembly with Trinity vers.2.14
+- #### De novo assembly with Trinity vers.2.14
 
 ```bash
 ./Trinity --left SRR7753904_1.fastq.gz,SRR7753904_1.fastq.gz,SRR7753902_1.fastq.gz,SRR7753901_1.fastq.gz \
