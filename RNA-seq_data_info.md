@@ -62,3 +62,12 @@ fastqc -o QC_out -t 90  SRR*.fastq.gz
 RNA-seq reads clean and do not need further filtering aor trimming for downstream analyses. An axample can be ssen in sample SRR7753901.
 [SRR7753901_1_fastqc.zip](https://github.com/bbalog87/catfish-genome/files/8351519/SRR7753901_1_fastqc.zip)
 
+
+### 1)- Trancriptome assembly
+#### De novo assembly with Trinity vers.2.14
+
+```bash
+./Trinity --left SRR7753904_1.fastq.gz,SRR7753904_1.fastq.gz,SRR7753902_1.fastq.gz,SRR7753901_1.fastq.gz \
+          --right SRR7753904_2.fastq.gz,SRR7753904_2.fastq.gz,SRR7753902_2.fastq.gz,SRR7753901_2.fastq.gz \
+		  --CPU 90 --full_cleanup --output Trinity-RNA_OUT --seqType fq --max_memory 300G
+```
