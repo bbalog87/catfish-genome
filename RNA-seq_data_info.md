@@ -63,7 +63,7 @@ RNA-seq reads clean and do not need further filtering aor trimming for downstrea
 [SRR7753901_1_fastqc.zip](https://github.com/bbalog87/catfish-genome/files/8351519/SRR7753901_1_fastqc.zip)
 
 
-### 1)- Trancriptome assembly
+### 2)- Trancriptome assembly
 - #### De novo assembly with Trinity vers.2.14
 
 ```bash
