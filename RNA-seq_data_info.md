@@ -52,7 +52,7 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR775/004/SRR7753904/SRR7753904_2.fastq
 
 ```
 
-### 1) Quality Check of the RNA-Seq reads | FastQC - [Info link](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+### 1)- Quality Check of the RNA-Seq reads | FastQC - [Info link](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 
 ```bash
 mkdir QC_out
