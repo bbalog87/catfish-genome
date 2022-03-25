@@ -59,3 +59,6 @@ mkdir QC_out
 fastqc -o QC_out -t 90  SRR*.fastq.gz
 
 ```
+RNA-seq reads clean and do not need further filtering aor trimming for downstream analyses. An axample can be ssen in sample SRR7753901.
+[SRR7753901_1_fastqc.zip](https://github.com/bbalog87/catfish-genome/files/8351519/SRR7753901_1_fastqc.zip)
+
