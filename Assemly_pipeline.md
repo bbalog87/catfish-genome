@@ -1,6 +1,7 @@
 ## Raw summary of methods used in the T2T assembly of the African catfsih genome 
 
-Here, we document all steps to achieve chromosome-level telomere-to-telomrere T2T assembly, from the input data to the final phased, gap filled and polished asemblies.
+Here, we document all steps to achieve chromosome-level telomere-to-telomrere (T2T) assembly, from the input data to the final hplotype-resolved, 
+gap-filled and polished asemblies.
 
 ### 1) Summary of generated sequencing data
 Tissues from the same single male adult animal (fish) was used to extrcat DNA for all samples.
