@@ -1,4 +1,4 @@
-## Raw summary of methods used in the T2T assembly of the African catfsih genome
+## Raw summary of methods used in the T2T assembly of the African catfsih genome 
 
 Here, we document all steps to achieve chromosome-level telomere-to-telomrere T2T assembly, from the input data to the final phased, gap filled and polished asemblies.
 
