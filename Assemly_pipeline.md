@@ -77,15 +77,15 @@ To reduice these false duplication, we purged haplotypic duplications using succ
 The BUSCO duplication rate in the purged primary assembly was dramtically reduced from 26% to 1.2%, which more realistic as compred with closely related catfishes.
 
 ```
-Completeness Assessment Results:  
-        Total # of core genes queried:    3640
-        # of core genes detected
-                Complete:    3547 (97.45%)
-                Complete + Partial:    3563 (97.88%)
-        # of missing core genes:    77 (2.12%)
-        Average # of orthologs per core genes:    1.02
-        % of detected core genes that have more than 1 ortholog:    1.27
-        Scores in BUSCO format:    C:97.4%[S:96.2%,D:1.2%],F:0.4%,M:2.2%,n:3640
+Completeness Assessment Results: \
+        Total # of core genes queried:    3640\
+        # of core genes detected\
+                Complete:    3547 (97.45%)\
+                Complete + Partial:    3563 (97.88%)\
+        # of missing core genes:    77 (2.12%)\
+        Average # of orthologs per core genes:    1.02\
+        % of detected core genes that have more than 1 ortholog:    1.27\
+        Scores in BUSCO format:    C:97.4%[S:96.2%,D:1.2%],F:0.4%,M:2.2%,n:3640\
 
   ```
 #### b) Step 2: Reads partioning in Haplotypes-specific reads, Haplotype-resolved assemblies with Hifiasm
