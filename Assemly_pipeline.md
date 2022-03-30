@@ -76,7 +76,8 @@ To reduice these false duplication, we purged haplotypic duplications using succ
 
 The BUSCO duplication rate in the purged primary assembly was dramtically reduced from 26% to 1.2%, which more realistic as compred with closely related catfishes.
 
-```**Completeness Assessment Results:**  
+```
+Completeness Assessment Results:  
         Total # of core genes queried:    3640
         # of core genes detected
                 Complete:    3547 (97.45%)
