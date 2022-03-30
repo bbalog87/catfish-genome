@@ -4,7 +4,7 @@ Here, we document all steps to achieve chromosome-level telomere-to-telomrere (T
 gap-filled and polished asemblies.
 
 ### Summary of generated sequencing data
-Tissues from the same single male adult animal (fish) was used to extrcat DNA for all samples.
+Tissues from the same single male adult animal (fish) was used to extract DNA for all samples.
 - **HiFi reads:**
 High fildelity (HiFi) reads data were produced using the circular consensus sequencing (CCS) mode of the PacBio Sequel systems. 
 A total of 8,509,466 CCS reads with an avearge N50 reads length of ~16 Kb were yielded, achieving an overall genome coverage of 118x. HiFi reads have an average base-level accuracy of >99.6% (Q25). These data were mainly used to compute the primary assemblies.
@@ -23,7 +23,7 @@ ONT reads wih N50 of 32 Kb and mean quality of >90% (Q10). ONT reads yielded an 
 | HiSeq X Ten             | Illumina PE-150 Hi-C | 181,719,601           | 27,439,59,751      |
 
 ### Genome survey analysis
-We performed a genome survey analysis (GSS) to gain insights into a preliminary global view of a genome prooerties, including estimated (theoretical) genome size, expected repetitive sequences content and estimated heterozygosity. For k-mer analysis, we used the [K-mer Analysis Toolkit (KAT)](https://github.com/TGAC/KAT), [jellyfish (vers. 2.3.0)](https://github.com/gmarcais/Jellyfish) and custom R scripts.\
+We performed a genome survey analysis (GSA) to gain insights into a preliminary global view of a genome prooerties, including estimated (theoretical) genome size, expected repetitive sequences content and estimated heterozygosity. For k-mer analysis, we used the [K-mer Analysis Toolkit (KAT)](https://github.com/TGAC/KAT), [jellyfish (vers. 2.3.0)](https://github.com/gmarcais/Jellyfish) and custom R scripts.\
 For a given sequence  S of length L,  a k-mer is subsequence of size k. The total possible number of k-mers will be given by *( L – k ) + 1*\\
 
 **a) Count k-mer occurrence using Jellyfish 2.2.6 for k=19,21,27,41**
