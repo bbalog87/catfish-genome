@@ -53,7 +53,7 @@ HICreads2=21108D-01-01-01_S108_L001_R2_001.fastq.gz
 echo "===== ASSEMBLYING $AB : Pool of all clean HiFi samples ========"
 
 /usr/bin/time -o out.ABrun.time.ram.txt -v \
-./hifiasm -o AB.asm \
+hifiasm -o AB.asm \
           -t 91 \
 		  --hg-size 1200m \
 		  --hom-cov 131 -l3  -s 0.35 \
@@ -87,4 +87,4 @@ The BUSCO duplication rate in the purged primary assembly was dramtically reduce
         Scores in BUSCO format:    C:97.4%[S:96.2%,D:1.2%],F:0.4%,M:2.2%,n:3640
 
   ```
-#### b) step 2: Reads partioning in Haplotypes-specific reads, Haplotype-resolved assemblies with Hifiasm
+#### b) Step 2: Reads partioning in Haplotypes-specific reads, Haplotype-resolved assemblies with Hifiasm
