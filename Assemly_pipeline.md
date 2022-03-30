@@ -24,7 +24,7 @@ ONT reads wih N50 of 32 Kb and mean quality of >90% (Q10). ONT reads yielded an 
 
 ### Genome survey analysis
 We performed a genome survey analysis (GSA) to gain insights into a preliminary global view of a genome prooerties, including estimated (theoretical) genome size, expected repetitive sequences content and estimated heterozygosity. For k-mer analysis, we used the [K-mer Analysis Toolkit (KAT)](https://github.com/TGAC/KAT), [jellyfish (vers. 2.3.0)](https://github.com/gmarcais/Jellyfish) and custom R scripts.\
-For a given sequence  S of length L,  a k-mer is subsequence of size k. The total possible number of k-mers will be given by *( L – k ) + 1*\\
+For a given sequence  S of length L,  a k-mer is subsequence of size k. The total possible number of k-mers will be given by *( L – k ) + 1*\
 
 **a) Count k-mer occurrence using Jellyfish 2.2.6 for k=19,21,27,41**
 ``` bash
