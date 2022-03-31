@@ -132,3 +132,6 @@ The following procedure was followed to infer phased (haplotype-specific) HiFi r
   - Protein-coding genes annotation
   
  
+ 
+ [Figure_assembly_pipeline_31_march_2022.pdf](https://github.com/bbalog87/catfish-genome/files/8388798/Figure_assembly_pipeline_31_march_2022.pdf)
+
