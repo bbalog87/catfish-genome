@@ -57,9 +57,6 @@ hifiasm -o AB.asm \
           -t 91 \
 		  --hg-size 1200m \
 		  --hom-cov 131 -l3  -s 0.35 \
-		  --n-perturb 75000 \
-		  --f-perturb 0.15 \
-		  --n-weight 5 \
 		  --h1 $HICreads1 \
 		  --h2 $HICreads2 \
 		  $AB
