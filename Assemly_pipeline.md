@@ -132,6 +132,6 @@ The following procedure was followed to infer phased (haplotype-specific) HiFi r
   - Protein-coding genes annotation
   
  
- #### Figure 1: (draft) assembly worflow
+ #### Figure 1: (First drafting) assembly worflow
 ![Summary of the assembly workflow](pipelines/Figure_assembly_pipeline_31_march_2002.svg)
 
