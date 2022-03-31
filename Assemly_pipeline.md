@@ -120,6 +120,6 @@ The following procedure was followed to infer phased (haplotype-specific) HiFi r
  
 8. Fill the gap in Hap1 and Hap2 with TSG-gapCloser
 9. Polish the Primary assmebly, Hap1 and Hap2 with NextPolish+Hapo-G
-10. Decontamination, QC, asssessmemht and validation of Prim, Hap1, and Hap2 assemblies.
+10. Decontamination (Blast, Kraken2), QC, asssessmemht and validation of Prim, Hap1, and Hap2 assemblies.
 
 
