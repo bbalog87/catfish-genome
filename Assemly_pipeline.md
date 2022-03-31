@@ -91,7 +91,7 @@ The Hi-C reads were leveraged in the  modified [Arima mapping pipeline](https://
 - a) Hi-C PE-reads were mapped the Prim assembly using bwa-mem
 - b) Alignement was post-processed: filtred, sorted by coordinate and duplicates makrked
 - c) Post-processed aligment was used in [SALSA2](https://github.com/marbl/SALSA) to generate Chromosome-level scaffolds. 
-- d) [TGS-GapCloser](https://github.com/BGI-Qingdao/TGS-GapCloser) was used with corrected ONT reads to fill all gaps in the scaffolds, achieving a fully gapless primray assembly.
+- d) [TGS-GapCloser](https://github.com/BGI-Qingdao/TGS-GapCloser) was used with corrected ONT reads to fill all gaps in the scaffolds, achieving a fully gapless chomosome-level primary assembly.
  
  
 #### b) Step 2: Reads partioning in Haplotypes-specific reads, Haplotype-resolved assemblies with Hifiasm
