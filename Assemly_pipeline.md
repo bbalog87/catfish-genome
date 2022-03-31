@@ -86,7 +86,7 @@ Completeness Assessment Results: \
 
   ```
  
- - **Chromosme-scaffolding of the primary assembly**
+  **Chromosme-scaffolding of the primary assembly**\
 The Hi-C reads were leverage in the  modified [Arima mapping pipeline](https://github.com/ArimaGenomics/mapping_pipeline) to order and orient contigs into chromosomes.
 - a) Hi-C PE-reads were mapped the Prim assembly using bwa-mem
 - b) Alignement was post-processed: filtred, sorted by coordinate and duplicates makrked
