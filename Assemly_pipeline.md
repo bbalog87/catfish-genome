@@ -27,14 +27,6 @@ ONT reads wih N50 of 32 Kb and mean quality of >90% (Q10). ONT reads yielded an 
 We performed a genome survey analysis (GSA) to gain insights into a preliminary global view of a genome properties, including estimated (theoretical) genome size, expected repetitive sequences content and estimated heterozygosity rate. For k-mer analysis, we used the [K-mer Analysis Toolkit (KAT)](https://github.com/TGAC/KAT), [jellyfish (vers. 2.3.0)](https://github.com/gmarcais/Jellyfish) and custom R scripts.\
 For a given sequence  S of length L,  a k-mer is subsequence of size k. The total possible number of k-mers will be given by *( L – k ) + 1*
 
-**a) Count k-mer occurrence using Jellyfish 2.2.6 for k=19,21,27,41**
-``` bash
-KList={19,21,27,41}
- for i in $Klist;
-do 
- jellyfish count -t 64 -C -m $i -s 5G -o {i}mer_out ;
-done
-```
 These k-mers count were used to plot k-mer histogram and to estime the genome proporties. The estimated genome size of the African catfished rangen from 963 Mb to 1000 Mb depnding on the chosen k-mer size. The genome seem to be higly heterozygous, with an average estimated heterozygosity rate of 1.2% (i.e. 12 SNPs per Kbp). since the single-copy portion of the genome is estimnated to ~42% based on k-mer analysis, we expect around 60% of repetitive sequences content in this genome.
 
 ### Summary of T2T assembly workflow
@@ -42,33 +34,7 @@ We aim to build a fully haplotype-resolved chromosome-sacle assembly, possibly T
 
 #### a) Step 1: Primary genome assembly
 We used the haplotype-resolved assembler [hifiasm (vers.0.16.1)](https://github.com/chhylp123/hifiasm) to assemble the Prim assembly with clean HiFi and Hi-C data. 
-```bash
-## Input pooled HiFi data
-AB=catfish.HiFi.clean.fa.gz
-## Hi-C reads data
-HICreads1=21108D-01-01-01_S108_L001_R1_001.fastq.gz
-HICreads2=21108D-01-01-01_S108_L001_R2_001.fastq.gz
 
-## Hifiasm assembly pipeline
-		  
-echo "===== ASSEMBLYING $AB : Pool of all clean HiFi samples ========"
-
-/usr/bin/time -o out.ABrun.time.ram.txt -v \
-hifiasm -o AB.asm \
-          -t 91 \
-		  --hg-size 1200m \
-		  --hom-cov 131 -l3  -s 0.35 \
-		  --h1 $HICreads1 \
-		  --h2 $HICreads2 \
-		  $AB
-      
-## Extract contigs from gfa files
- for FILE in *ctg.gfa; do
-awk '/^S/{print ">"$2;print $3}' $FILE > ${FILE%%.gfa}.fa	  
-
-done
-
-```
 Benchmarking Universal Single-Copy Orthologs (BUSCO) showed that the primary assembly contained a high level of haplotipic duplication (26%). 
 To reduce these false duplications, we purged haplotypic duplications using successively [purge_dups](https://github.com/dfguan/purge_dups) and [purge_haplotigs](https://bitbucket.org/mroachawri/purge_haplotigs/src/master/) pipelines, performing two and one rounds, respectively.\
 
