@@ -4,7 +4,8 @@ Here, we document all steps to achieve chromosome-level telomere-to-telomrere (T
 gap-filled and polished asemblies.
 
 ### Summary of generated sequencing data
-Tissues from the same single male adult animal (fish) was used to extract DNA for all samples.
+DNA for all samples was extracted from tissues of the same single male adult animal (fish).\
+
 - **HiFi reads:**
 High fildelity (HiFi) reads data were produced using the circular consensus sequencing (CCS) mode of the PacBio Sequel systems. 
 A total of 8,509,466 CCS reads with an avearge N50 reads length of ~16 Kb were yielded, achieving an overall genome coverage of 118x. HiFi reads have an average base-level accuracy of >99.6% (Q25). These data were mainly used to compute the primary assemblies.
@@ -23,7 +24,7 @@ ONT reads wih N50 of 32 Kb and mean quality of >90% (Q10). ONT reads yielded an 
 | HiSeq X Ten             | Illumina PE-150 Hi-C | 181,719,601           | 27,439,59,751      |
 
 ### Genome survey analysis
-We performed a genome survey analysis (GSA) to gain insights into a preliminary global view of a genome prooerties, including estimated (theoretical) genome size, expected repetitive sequences content and estimated heterozygosity. For k-mer analysis, we used the [K-mer Analysis Toolkit (KAT)](https://github.com/TGAC/KAT), [jellyfish (vers. 2.3.0)](https://github.com/gmarcais/Jellyfish) and custom R scripts.\
+We performed a genome survey analysis (GSA) to gain insights into a preliminary global view of a genome properties, including estimated (theoretical) genome size, expected repetitive sequences content and estimated heterozygosity rate. For k-mer analysis, we used the [K-mer Analysis Toolkit (KAT)](https://github.com/TGAC/KAT), [jellyfish (vers. 2.3.0)](https://github.com/gmarcais/Jellyfish) and custom R scripts.\
 For a given sequence  S of length L,  a k-mer is subsequence of size k. The total possible number of k-mers will be given by *( L – k ) + 1*
 
 **a) Count k-mer occurrence using Jellyfish 2.2.6 for k=19,21,27,41**
@@ -68,10 +69,10 @@ awk '/^S/{print ">"$2;print $3}' $FILE > ${FILE%%.gfa}.fa
 done
 
 ```
-Benchmarking Universal Single-Copy Orthologs (BUSCO) showed that the primary aasembly contained a high level of haplotipic duplication (26%). 
-To reduice these false duplication, we purged haplotypic duplications using successively [purge_dups](https://github.com/dfguan/purge_dups) and [purge_haplotigs](https://bitbucket.org/mroachawri/purge_haplotigs/src/master/) pipelines, perfprming two and one rounds, respectively.\
+Benchmarking Universal Single-Copy Orthologs (BUSCO) showed that the primary assembly contained a high level of haplotipic duplication (26%). 
+To reduce these false duplications, we purged haplotypic duplications using successively [purge_dups](https://github.com/dfguan/purge_dups) and [purge_haplotigs](https://bitbucket.org/mroachawri/purge_haplotigs/src/master/) pipelines, performing two and one rounds, respectively.\
 
-The BUSCO duplication rate in the purged primary assembly was dramtically reduced from 26% to 1.2%, which more realistic as compred with closely related catfishes.
+The BUSCO duplication rate in the purged primary assembly was dramtically reduced from 26% to 1.2%, which is more realistic as compred with closely related species.
 
 ```
 Completeness Assessment Results: \
@@ -120,6 +121,14 @@ The following procedure was followed to infer phased (haplotype-specific) HiFi r
  
 8. Fill the gap in Hap1 and Hap2 with TSG-gapCloser
 9. Polish the Primary assmebly, Hap1 and Hap2 with NextPolish+Hapo-G
-10. Decontamination (Blast, Kraken2), QC, asssessmemht and validation of Prim, Hap1, and Hap2 assemblies.
+10. Decontamination (Blast, Kraken2), QC, asssessmemht and validation (Merqutŕy, LAI, BUSCO, ...) of Prim, Hap1, and Hap2 assemblies.
+
+#### c) Step 3: Manual curation, data visualization, NCBI Submission
 
 
+#### d) Step 4: Functionla and structural annotation
+  - Repeats annotation
+  - Non-coding RNA annotation
+  - Protein-coding genes annotation
+  
+ 
