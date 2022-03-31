@@ -104,24 +104,24 @@ The following procedure was followed to infer phased (haplotype-specific) HiFi r
  - Map Hi-C read to prim assembly (bwa-mem)
  - map illumina to prim assembly (bwa-mem)
 
-2. Call SNPs variants in HiFi alignement file (bam) using NanoCaller pipeline ==> outpüut VCF file
+2. Call SNPs variants in HiFi alignement file (bam) using NanoCaller pipeline ==> output VCF file
 
-3. Phase the variants in 2) using WhatsHap with input of other bam files (ONT.bam, Illumina.bam, HiC.bam)
+3. Phase the variants in 2) using WhatsHap with other bam files (ONT.bam, Illumina.bam, HiC.bam) as input.
 
-4. In the phased bam file obitained in 3) extract phased reads  specific to Hap1 and Hap2 respectively.
+4. In the phased bam file obitained in 3),  extract phased reads that are specific to Hap1 and Hap2 respectively.
 
-5. Merging hoplotype-spcific phased reads withunphased reads (possibly homozygous reads):\
- a) Hap1+Homozygous reads
- b) Hap2+ Homozygous reads
+5. Merging hoplotype-spcific phased reads with unphased reads (possibly homozygous reads):\
+ a) Hap1 + Homozygous reads (CCS.hap1.fa)
+ b) Hap2 + Homozygous reads (CCS.hap2.fa)
 
 6. Use Hifiasm to assemble reads in 5a) and in 5b) separately 
 
 7. Use the primary assembly as reference to Scaffold
- (genome-guided Scaffolding) the contigs-level assemblies obtained in 6), inclusing Hap1 and hap2.
+ (genome-guided scaffolding) the contigs-level assemblies obtained in 6), inclusing Hap1 and hap2 assemblies.
  
-8. Fill the gap in Hap1 and Hap2 with TSG-gapCloser
-9. Polish the Primary assmebly, Hap1 and Hap2 with NextPolish+Hapo-G
-10. Decontamination (Blast, Kraken2), QC, asssessmemht and validation (Merqutŕy, LAI, BUSCO, ...) of Prim, Hap1, and Hap2 assemblies.
+8. Fill the gaps in Hap1 and Hap2 with TGS-gapCloser
+9. Polish the Primary assmebly, Hap1  and Hap2 with NextPolish + Hapo-G
+10. Decontamination (Blast, Kraken2), QC, asssessmemht and validation (Merqury, LAI, BUSCO, ...) of Prim, Hap1, and Hap2 assemblies.
 
 #### c) Step 3: Manual curation, data visualization, NCBI Submission
 
