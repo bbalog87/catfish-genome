@@ -98,10 +98,10 @@ The Hi-C reads were leveraged in the  modified [Arima mapping pipeline](https://
 The following procedure was followed to infer phased (haplotype-specific) HiFi reads, which were then assembled independently with Hifiasm.
 
 1. Mapping:
- --Mapp HiFi reads to prim assembly ( Minimap2)
- -- Map ONT to pim assembly (minimap2)
- -- map Hi-C read to prim assembly (bwa-mem)
- -- map illumina to prim assembly (bwa-mem)
+ - Mapp HiFi reads to prim assembly ( Minimap2)
+ - Map ONT to pim assembly (minimap2)
+ - Map Hi-C read to prim assembly (bwa-mem)
+ - map illumina to prim assembly (bwa-mem)
 
 2. Call SNPs variants in HiFi alignement file (bam) using NanoCaller pipeline ==> outpüut VCF file
 
