@@ -96,7 +96,30 @@ The Hi-C reads were leveraged in the  modified [Arima mapping pipeline](https://
  
 #### b) Step 2: Reads partioning in Haplotypes-specific reads, Haplotype-resolved assemblies with Hifiasm
 The following procedure was followed to infer phased (haplotype-specific) HiFi reads, which were then assembled independently with Hifiasm.
-- (i) 
 
+1. Mapping:
+ --Mapp HiFi reads to prim assembly ( Minimap2)
+ -- Map ONT to pim assembly (minimap2)
+ -- map Hi-C read to prim assembly (bwa-mem)
+ -- map illumina to prim assembly (bwa-mem)
+
+2. Call SNPs variants in HiFi alignement file (bam) using NanoCaller pipeline ==> outpüut VCF file
+
+3. Phase the variants in 2) using WhatsHap with input of other bam files (ONT.bam, Illumina.bam, HiC.bam)
+
+4. In the phased bam file obitained in 3) extract phased reads  specific to Hap1 and Hap2 respectively.
+
+5. Merging hoplotype-spcific phased reads withunphased reads (possibly homozygous reads):\
+ a) Hap1+Homozygous reads
+ b) Hap2+ Homozygous reads
+
+6. Use Hifiasm to assemble reads in 5a) and in 5b) separately 
+
+7. Use the primary assembly as reference to Scaffold
+ (genome-guided Scaffolding) the contigs-level assemblies obtained in 6), inclusing Hap1 and hap2.
+ 
+8. Fill the gap in Hap1 and Hap2 with TSG-gapCloser
+9. Polish the Primary assmebly, Hap1 and Hap2 with NextPolish+Hapo-G
+10. Decontamination, QC, asssessmemht and validation of Prim, Hap1, and Hap2 assemblies.
 
 
