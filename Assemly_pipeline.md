@@ -82,7 +82,21 @@ Completeness Assessment Results: \
         # of missing core genes:    77 (2.12%)\
         Average # of orthologs per core genes:    1.02\
         % of detected core genes that have more than 1 ortholog:    1.27\
-        Scores in BUSCO format:    C:97.4%[S:96.2%,D:1.2%],F:0.4%,M:2.2%,n:3640\
+        Scores in BUSCO format:    C:97.4%[S:96.2%,D:1.2%],F:0.4%,M:2.2%,n:3640
 
   ```
+ 
+ - **Chromosme-scaffolding of the primary assembly**
+The Hi-C reads were leverage in the  modified [Arima mapping pipeline](https://github.com/ArimaGenomics/mapping_pipeline) to order and orient contigs into chromosomes.
+a) Hi-C PE-reads were mapped the Prim assembly using bwa-mem
+b) Alignement was post-processed: filtred, sorted by coordinate and duplicates makrked
+c) Post-processed aligment was used in [SALSA2](https://github.com/marbl/SALSA) to generate Chromosome-level scaffolds. 
+d) [TGS-GapCloser](https://github.com/BGI-Qingdao/TGS-GapCloser) was used with corrected ONT reads to fill all gaps in the scaffolds, achieving a fully gapless chromosome assembly.
+ 
+ 
 #### b) Step 2: Reads partioning in Haplotypes-specific reads, Haplotype-resolved assemblies with Hifiasm
+The following procedure was followed to infer phased (haplotype-specific) HiFi reads, which were then assembled independently with Hifiasm.
+- (i) 
+
+
+
