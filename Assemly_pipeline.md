@@ -111,7 +111,7 @@ The following procedure was followed to infer phased (haplotype-specific) HiFi r
 4. In the phased bam file obitained in 3),  extract phased reads that are specific to Hap1 and Hap2 respectively.
 
 5. Merging hoplotype-spcific phased reads with unphased reads (possibly homozygous reads):\
- a) Hap1 + Homozygous reads (CCS.hap1.fa)
+ a) Hap1 + Homozygous reads (CCS.hap1.fa)\
  b) Hap2 + Homozygous reads (CCS.hap2.fa)
 
 6. Use Hifiasm to assemble reads in 5a) and in 5b) separately 
