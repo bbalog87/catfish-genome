@@ -132,7 +132,7 @@ The following procedure was followed to infer phased (haplotype-specific) HiFi r
   - Protein-coding genes annotation
   
   
-  Table 1: Assembly statistics of chromosomal-scale
+  **Table 2: Assembly statistics of chromosomal-scale**
 
 
 |          |  Haplotype 1 | Haplotype 2| Primary |
