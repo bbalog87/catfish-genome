@@ -140,3 +140,6 @@ dated 320 Mya (Jaillon et al. 2004). This dramatic evolutionary event, referred 
 # BUSCO assement papers
 - [Feron & Waterhouse](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac006/6537158?login=false)
 
+#### 07.04- 2022 : Expermient Idea for nature communaication
+- Evolution of some key gens among catfihs (which genes might be of genrela interest, hence consiederd as key genes for catfishes??)
+
