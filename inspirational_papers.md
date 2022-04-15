@@ -3,4 +3,4 @@
 
 
 
-![img]()
+![img](https://github.com/bbalog87/catfish-genome/blob/main/Side_papers/tpj15728-fig-0001-m.jpg)
