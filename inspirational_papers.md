@@ -4,3 +4,13 @@
 
 
 ![img](https://github.com/bbalog87/catfish-genome/blob/main/Side_papers/tpj15728-fig-0001-m.jpg)
+
+
+
+- 2021 | A high-quality genome assembly highlights rye genomic characteristics and agronomically important genes | [Download](https://www.nature.com/articles/s41588-021-00808-z)
+
+![img](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41588-021-00808-z/MediaObjects/41588_2021_808_Fig1_HTML.png?as=webp)
+
+- 2020 | Allele-aware chromosome-level genome assembly and efficient transgene-free genome editing for the autotetraploid cultivated alfalfa |[Download](https://www.nature.com/articles/s41467-020-16338-x)
+
+![img](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-16338-x/MediaObjects/41467_2020_16338_Fig1_HTML.png?as=webp)
