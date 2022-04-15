@@ -14,3 +14,7 @@
 - 2020 | Allele-aware chromosome-level genome assembly and efficient transgene-free genome editing for the autotetraploid cultivated alfalfa | [Download](https://www.nature.com/articles/s41467-020-16338-x)
 
 ![img](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-16338-x/MediaObjects/41467_2020_16338_Fig1_HTML.png?as=webp)
+
+- 2020 | Eight high-quality genomes reveal pan-genome architecture and ecotype differentiation of Brassica napus | [Download](https://www.nature.com/articles/s41477-019-0577-7)
+
+![img](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41477-019-0577-7/MediaObjects/41477_2019_577_Fig1_HTML.png?as=webp)
