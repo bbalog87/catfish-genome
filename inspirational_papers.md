@@ -11,6 +11,6 @@
 
 ![img](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41588-021-00808-z/MediaObjects/41588_2021_808_Fig1_HTML.png?as=webp)
 
-- 2020 | Allele-aware chromosome-level genome assembly and efficient transgene-free genome editing for the autotetraploid cultivated alfalfa |[Download](https://www.nature.com/articles/s41467-020-16338-x)
+- 2020 | Allele-aware chromosome-level genome assembly and efficient transgene-free genome editing for the autotetraploid cultivated alfalfa | [Download](https://www.nature.com/articles/s41467-020-16338-x)
 
 ![img](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-020-16338-x/MediaObjects/41467_2020_16338_Fig1_HTML.png?as=webp)
