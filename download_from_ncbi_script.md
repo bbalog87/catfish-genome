@@ -22,7 +22,7 @@ conda install -c bioconda entrez-direct # tool3
 
 
 
-## Step 1: Download refseq plant mitogenome data from ncbi
+## Download refseq plant mitogenome data from ncbi
 
 We fetched from https://www.ncbi.nlm.nih.gov/genome/browse#!/organelles/, plant mitogenome, and use that list of accesion to download the data
 
