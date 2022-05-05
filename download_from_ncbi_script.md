@@ -1,22 +1,30 @@
-# Create an environment
+## Create an environment
 
+```python
 
 conda create --name ncbidownload_env
 
+```
 
-#Activate the environment
+
+
+
+## Activate the environment and install the tools
+
+```python
+
 source activate ncbidownload_env
-
-
-#Install the tools
 conda install ncbi-genome-download #tool 1
 conda install -c bioconda ncbi-acc-download # tool2
 conda install -c bioconda entrez-direct # tool3
 
+```
+
 
 
 ## Step 1: Download refseq plant mitogenome data from ncbi
-### We fetched from https://www.ncbi.nlm.nih.gov/genome/browse#!/organelles/, plant mitogenome, and use that list of accesion to download the data
+
+We fetched from https://www.ncbi.nlm.nih.gov/genome/browse#!/organelles/, plant mitogenome, and use that list of accesion to download the data
 
 
 ```python
@@ -29,7 +37,11 @@ source deactivate ncbidownload_env
 ```
 
 
-In summary use epost to list the sequences with a pipe with efecth to grab those sequences | Nota Bene:change -db nucleotide into protein when it comes to protein data set 
+In summary use **epost** to list the sequences with a pipe with **efecth** to grab those sequences 
+
+> Nota Bene:change -db nucleotide into protein when it comes to protein data set like...
+
+
 
 ```python
 
