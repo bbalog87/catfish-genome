@@ -3,7 +3,7 @@
 - 2022 | The power of chromosome-scale, haplotype-resolved genomes | [Download](https://github.com/bbalog87/catfish-genome/blob/main/Side_papers/PIIS1674205222000582.pdf)
 
 
-![img]()
+![img](https://github.com/bbalog87/catfish-genome/blob/main/Side_papers/a13f6a1378f7e342ea706c83858a4ff3-1.jpg)
 
 
 
