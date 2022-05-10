@@ -42,15 +42,6 @@ mamba  install -c bioconda ncbi-acc-download # tool2
 mamba  install -c bioconda entrez-direct # tool3
 
 ```
- In totol 3906 transcript were fetched from NCBI
- 
- 
- ```
- grep ">" fish.HRG.mRNA.fa | wc -l
- 3806
- ```
-
-
 
 
 ## Download refseq transcript sequences of HRG  reported in [HRGFish](https://mail.nbfgr.res.in/HRGFish/index.php) database.
@@ -63,4 +54,12 @@ for ID in $(cat GeneID.txt); do
 elink -db gene -id $ID  -target nuccore -name gene_nuccore_refseqrna | efetch -format fasta >> fish.HRG.mRNA.fa
 
 done
+
+ 
+ In total 3906 transcripts of HRGs were fetched from NCBI:
+
+ ```
+ grep ">" fish.HRG.mRNA.fa | wc -l
+ 3806
+ ```
 
