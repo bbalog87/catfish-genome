@@ -42,6 +42,14 @@ mamba  install -c bioconda ncbi-acc-download # tool2
 mamba  install -c bioconda entrez-direct # tool3
 
 ```
+ In totol 3906 transcript were fetched from NCBI
+ 
+ 
+ ```
+ grep ">" fish.HRG.mRNA.fa | wc -l
+ 3806
+ ```
+
 
 
 
