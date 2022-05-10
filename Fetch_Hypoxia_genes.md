@@ -2,7 +2,7 @@
 # Downlaod transcript sequences 
 
 Fish-specific Hypoxia genes are documented in [HRGFish](https://mail.nbfgr.res.in/HRGFish/index.php) database.
-However only with their gene anme and GeneId. There is no ways to dowlod the trancript of protein sequence of these genes.
+However only with their gene names and IDs. There is no way to downlaod the trancripts sequnces of these genes.
 This script aims to fetch the protein sequences of all hypoxia responsive genes reported in HRGFish.
 
 ## Manual work
