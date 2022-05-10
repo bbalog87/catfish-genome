@@ -35,10 +35,11 @@ conda create --name ncbidownload_env python=3.8
 
 ```python
 
-source activate ncbidownload_env
-conda install ncbi-genome-download #tool 1
-conda install -c bioconda ncbi-acc-download # tool2
-conda install -c bioconda entrez-direct # tool3
+conda install -c conda-forge mamba # install mamba which is far more fasta thana conda
+conda activate ncbidownload_env 
+mamba install -c bioconda ncbi-genome-download #tool 1
+mamba  install -c bioconda ncbi-acc-download # tool2
+mamba  install -c bioconda entrez-direct # tool3
 
 ```
 
