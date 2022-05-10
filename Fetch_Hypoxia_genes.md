@@ -92,3 +92,11 @@ cut -f2 Hypo.protein.topHit.blast |uniq | wc -l
 
 
 ## Extract blast topHits from the A. catfish gff3 genome annoation file and convert output to bed format
+
+Remove duplicates Hypoxia responsive genes hits
+
+
+```
+cut -f2 Hypo.protein.topHit.blast |uniq > CGAR.HRG.loci.txt
+```
+
