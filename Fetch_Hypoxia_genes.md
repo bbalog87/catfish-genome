@@ -1,8 +1,30 @@
-## Create an environment
+
+# Downlaod proteins sequences 
+
+Fish-specific Hypoxia genes are documented in [HRGFish](https://mail.nbfgr.res.in/HRGFish/index.php) database.
+However only with their gene anme and GeneId. There is no ways to dowlod the trancript of protein sequence of these genes.
+This script aims to fetch the protein sequences of all hypoxia responsive genes reported in HRGFish.
+
+## Manual work
+Unfortunatly, even geneID can now be downlaod by single click. Information of each gene need to be exported manually to a TSV file.
+There are around 50 reported HRG in fish (Lsst accessed: 10.05.2022).
+
+## Clean files and extract GeneID
+The pattern "**more..**" is the most distinctive expression between "GeneNames" and "geneID" lines. Therefore, we'll grep geneIDs based on this pattern.
+```bash
+#!/bin/bash
+
+PATTERN="more.."
+for FILE in ge*.txt ; do
+grep -w $PATTERN $FILE | cut -f1-3 >> hypoxia_geneID.txt
+done
+```
+
+## Create an environment with python 3
 
 ```python
 
-conda create --name ncbidownload_env
+conda create --name ncbidownload_env python=3.8
 
 ```
 
