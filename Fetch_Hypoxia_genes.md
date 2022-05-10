@@ -100,3 +100,10 @@ Remove duplicates Hypoxia responsive genes hits
 cut -f2 Hypo.protein.topHit.blast |uniq | sed s/-T1/\;/ > CGAR.HRG.loci.txt
 ```
 
+Extract genes postion from Gff3
+
+```R
+grep -Fw -f CGAR.HRG.loci.txt  catfish_ND21.gff3 > CGAR.HRG.loci.gff # as gff
+grep -Fw -f CGAR.HRG.loci.txt  catfish_ND21.gff3 | cut -f1,4,5 > CGAR.HRG.loci.gff # Chr# with genes postions (BED)
+```
+
