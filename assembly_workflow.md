@@ -1,4 +1,16 @@
 
+### [UC DAVIS Workshop on assembly QC](https://ucdavis-bioinformatics-training.github.io/2020-Genome_Assembly_Workshop/kmers/QAQC)
+
+![img](https://ucdavis-bioinformatics-training.github.io/2020-Genome_Assembly_Workshop/kmers/figures/pacbio.merqury.spectra-asm.fl.png)
+
+
+
+
+
+
+
+
+
 
 | **Completeness Assessment Results:**                    |   Primary                            | Haplotype-1 | Haplotype-2 |
 |---------------------------------------------------------|---------------------------------------|------------|-------------|
