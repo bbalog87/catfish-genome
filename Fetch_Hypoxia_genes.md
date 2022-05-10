@@ -106,4 +106,7 @@ grep -Fw -f CGAR.HRG.loci.txt  catfish_ND21.gff3 | cut -f1,4,5 > CGAR.HRG.loci.g
 ```
 
 **Note: We have for somes genes, overlapping coordinates or very close loci. This might be different transcripts of teh same gene. 
-We can merge these tracvripts to a single loci.**
+We can merge these tracvripts to a single loci.** 
+However the number of genes will be reduced to less than 20 genes,making the vizualization meanlingles. Buit please try first and let's discuss it later.
+
+
