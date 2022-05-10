@@ -45,14 +45,11 @@ mamba  install -c bioconda entrez-direct # tool3
 
 
 
-## Download refseq plant mitogenome data from ncbi
+## Download refseq protein seqeunces of HRG  reported in [HRGFish](https://mail.nbfgr.res.in/HRGFish/index.php) database.
 
-We fetched from https://www.ncbi.nlm.nih.gov/genome/browse#!/organelles/, plant mitogenome, and use that list of accesion to download the data
 
 
 ```python
-
-cd /agribio/HOME/yedomon1/analyses/sma/mitogenome
-source activate ncbidownload_env
+ cut -f1 hypoxia_geneID.txt  > GeneID.txt ## GeneID
 epost -input refseq.list -db nucleotide | efetch -format fasta > plant.mito.refseq.fasta 
 source deactivate ncbidownload_env
