@@ -54,7 +54,7 @@ for ID in $(cat GeneID.txt); do
 elink -db gene -id $ID  -target nuccore -name gene_nuccore_refseqrna | efetch -format fasta >> fish.HRG.mRNA.fa
 
 done
-
+```
  
  In total 3906 transcripts of HRGs were fetched from NCBI:
 
