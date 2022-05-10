@@ -97,6 +97,6 @@ Remove duplicates Hypoxia responsive genes hits
 
 
 ```
-cut -f2 Hypo.protein.topHit.blast |uniq | sed s/-T1// > CGAR.HRG.loci.txt
+cut -f2 Hypo.protein.topHit.blast |uniq | sed s/-T1/\;/ > CGAR.HRG.loci.txt
 ```
 
