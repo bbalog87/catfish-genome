@@ -79,7 +79,7 @@ blastx -query fish.HRG.mRNA.fa \
 -out Hypo.protein.topHit.blast
 
 ```
-We found 414 unique top bölst hits indication potential hypoxia responsive gene loci in A. catfish genome.
+We found 414 unique top Blast hits suggesting potential hypoxia responsive gene loci in A. catfish genome.
 
 ```
 
