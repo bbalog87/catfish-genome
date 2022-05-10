@@ -63,7 +63,7 @@ done
  3806
  ```
 
-## Map HRGs to the predicted  A. catfish proteins and retain topHits
+## Blast HRGs against predicted  A. catfish proteins and retain topHits
 ```bash
 makeblastdb -in catfish_ND21.proteins.fa \
 -dbtype prot \
