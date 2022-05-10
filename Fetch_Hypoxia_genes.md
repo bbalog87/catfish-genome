@@ -80,4 +80,4 @@ blastx -query fish.HRG.mRNA.fa \
 
 ```
 
-## Extract blast topHits from the A. catfish ggf3 genome annoation file and convert output to bed format
+## Extract blast topHits from the A. catfish gff3 genome annoation file and convert output to bed format
