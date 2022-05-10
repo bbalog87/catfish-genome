@@ -6,7 +6,7 @@ However only with their gene names and IDs. There is no way to downlaod the tran
 This script aims to fetch the protein sequences of all hypoxia responsive genes reported in HRGFish.
 
 ## Manual work
-Unfortunately, even geneID can now be downlaod by single click. Information of each gene need to be exported manually to a TSV file.
+Unfortunately, even geneID can't be downlaod by a single click. Information of each gene need to be exported manually to a TSV file.
 There are around 50 reported HRG in fish (Last accessed: 10.05.2022).
 
 ## Clean files and extract GeneID
