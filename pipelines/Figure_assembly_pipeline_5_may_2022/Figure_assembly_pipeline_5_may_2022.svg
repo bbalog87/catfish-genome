@@ -15,7 +15,7 @@
    version="1.1"
    id="svg10249"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="Figure_assembly_pipeline_3_may_2022.svg">
+   sodipodi:docname="Figure_assembly_pipeline_5_may_2022.svg">
   <defs
      id="defs10243">
     <marker
@@ -755,9 +755,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="449.32063"
-     inkscape:cy="169.17235"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="716.49413"
+     inkscape:cy="1020.1799"
      inkscape:document-units="mm"
      inkscape:current-layer="g10816"
      showgrid="false"
@@ -778,7 +778,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2921,7 +2921,7 @@
                  y="-15.019346"
                  x="417.51242"
                  id="tspan30676"
-                 sodipodi:role="line">PacBio Hifi </tspan><tspan
+                 sodipodi:role="line">PacBio HiFi </tspan><tspan
                  id="tspan30738"
                  style="stroke-width:0.26458332"
                  y="-10.609624"
@@ -2969,7 +2969,7 @@
                  y="-15.430277"
                  x="563.5766"
                  id="tspan30676-2-0-3"
-                 sodipodi:role="line">Arima HiC - illumina</tspan><tspan
+                 sodipodi:role="line">Arima Hi-C - illumina</tspan><tspan
                  id="tspan30744"
                  style="stroke-width:0.26458332"
                  y="-11.020555"
