@@ -7,7 +7,7 @@ This script aims to fetch the protein sequences of all hypoxia responsive genes 
 
 ## Manual work
 Unfortunately, even geneID can't be downlaod by a single click. Information of each gene need to be exported manually to a TSV file.
-There are around 50 reported HRG in fish (Last accessed: 10.05.2022).
+There are around 50 reported HRG in fish with ~1900 othologs in different fish species (Last accessed: 10.05.2022).
 
 ## Clean files and extract GeneID
 The pattern "**more..**" is the most distinctive expression between "GeneNames" and "geneID" lines. Therefore, we'll grep geneIDs based on this pattern.
