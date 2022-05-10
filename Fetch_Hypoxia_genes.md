@@ -45,7 +45,7 @@ mamba  install -c bioconda entrez-direct # tool3
 
 
 
-## Download refseq protein seqeunces of HRG  reported in [HRGFish](https://mail.nbfgr.res.in/HRGFish/index.php) database.
+## Download refseq transcript sequences of HRG  reported in [HRGFish](https://mail.nbfgr.res.in/HRGFish/index.php) database.
 
 
 
