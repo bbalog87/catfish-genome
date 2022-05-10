@@ -1,5 +1,13 @@
 
 
+- 2022 | [The genome and gene editing system of sea barleygrass provide a novel platform for cereal domestication and stress tolerance studies](https://www.sciencedirect.com/science/article/pii/S2590346222000839)
+
+
+
+
+
+
+
 - 2022 | The power of chromosome-scale, haplotype-resolved genomes | [Download](https://github.com/bbalog87/catfish-genome/blob/main/Side_papers/PIIS1674205222000582.pdf)
 
 
