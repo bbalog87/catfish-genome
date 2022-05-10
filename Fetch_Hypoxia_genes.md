@@ -51,5 +51,8 @@ mamba  install -c bioconda entrez-direct # tool3
 
 ```python
  cut -f1 hypoxia_geneID.txt  > GeneID.txt ## GeneID
-epost -input refseq.list -db nucleotide | efetch -format fasta > plant.mito.refseq.fasta 
-source deactivate ncbidownload_env
+for ID in $(cat GeneID.txt); do
+elink -db gene -id $ID  -target nuccore -name gene_nuccore_refseqrna | efetch -format fasta >> fish.HRG.mRNA.fa
+
+done
+
