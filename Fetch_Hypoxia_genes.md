@@ -63,3 +63,9 @@ done
  3806
  ```
 
+## Map HRGs to the predicted  A. catfish proteins and retain topHits
+```bash
+makeblastdb -in catfish_ND21.proteins.fa  -dbtype prot -title hyporot -parse_seqids -out PROT 
+blastx -query fish.HRG.mRNA.fa  -db PROT -evalue 1e-10 -num_threads 80 -max_target_seqs 1 -outfmt 1 -out Hypo.protein.topHit.blast
+
+```
