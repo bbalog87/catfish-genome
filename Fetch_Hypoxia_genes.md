@@ -105,5 +105,5 @@ grep -Fw -f CGAR.HRG.loci.txt  catfish_ND21.gff3 > CGAR.HRG.loci.gff # as gff
 grep -Fw -f CGAR.HRG.loci.txt  catfish_ND21.gff3 | cut -f1,4,5 > CGAR.HRG.loci.gff # Chr# with genes postions (BED)
 ```
 
-**Note: We have for somes genes, overlapping coordinates or very close loci. This might be the diffrent transcript of teh same gene. 
+**Note: We have for somes genes, overlapping coordinates or very close loci. This might be different transcripts of teh same gene. 
 We can merge these tracvripts to a single loci.**
