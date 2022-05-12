@@ -134,8 +134,7 @@ plotOnIdeo(chrom=seqlevels(data_telo),
 
 
 ## Now plot together
-## Note the data row number should be same for all
-## we will reshape the dataset in order to have 26563 rows as it is the lowest for PacBioHifi
+
 
 ## Plot data superimposed on chromosomal ideogram
 
@@ -143,15 +142,30 @@ data_all = GRanges(telocov$chr, IRanges(start = telocov$stat, end = telocov$end)
 mcols(data_all)$group1 = telocov$covtelo
 mcols(data_all)$group2 = hiccov$covhic
 
-
+## Error message
 
 Error in `[[<-`(`*tmp*`, name, value = c(7.71341, 11.7342, 11.2419, 15.0224,  : 
   26709 elements in value to replace 38412 elements
 
+## the data rows number should be same for all I think
+## when I check the bin, there are some difference regarding the number of rows per data
+                                         
+## hi-C ==> 26709 rows
+## illumina ==> 26729 rows
+## ONT ==> 26615 rows
+## hifi ==> 26563 rows
+## telomeres ==> 38413
+## That might explain the error messsage
 
+                                         
+## In summary, ploting individually is OKAY.
+## For surimposed style, we should have the same bin (same rows number) for all data sets
 
 sessionInfo()
 
+```
+                                         
+                                         
 R version 4.0.2 (2020-06-22)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
 Running under: Windows >= 8 x64 (build 9200)
@@ -177,3 +191,5 @@ loaded via a namespace (and not attached):
 [13] yaml_2.2.1                  crayon_1.5.1                Matrix_1.2-18               GenomeInfoDbData_1.2.3     
 [17] bitops_1.0-7                RCurl_1.98-1.6              DelayedArray_0.14.1         compiler_4.0.2             
 [21] Biostrings_2.56.0           Rsamtools_2.4.0             XML_3.99-0.9               
+
+```
