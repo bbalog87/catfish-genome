@@ -41,15 +41,92 @@ awk '$N < 0 {print $1,$N}' Base_change.tab > Contractions_taxonName.txt
 ````
 
 
-## Clean files and extract GeneID
-The pattern "**more..**" is the most distinctive expression between "GeneNames" and "geneID" lines. Therefore, we'll grep geneIDs based on this pattern.
-```bash
-#!/bin/bash
+## Process daat with R
 
-PATTERN="more.."
-for FILE in ge*.txt ; do
-grep -w $PATTERN $FILE | cut -f1-3 >> hypoxia_geneID.txt
-done
+```R
+
+## process CAFE output
+library(dplyr)
+library(data.table)
+library(stringr)
+
+
+temp = list.files(pattern="*.txt")
+
+allFiles.list <- lapply(temp, read.table, sep = "", header=TRUE)
+#myfiles = lapply(temp, read.delim)
+
+processCafe<-function(LIST){
+  lis=list()
+  for (i in 1:length(LIST)) {
+    df<-LIST[[i]]
+    
+    df$Species<-rep(substr(colnames(df)[2], start = 1, stop = 4),
+                    nrow(df))
+    colnames(df)<-c("FamilyID", "Change", "Species")
+    lis[[i]]<-df
+    
+  }
+  res=lis
+return(res)
+  
+}
+
+OGlist<-processCafe(allFiles.list)
+
+df.OG <- do.call("rbind", OGlist)
+df.OG$Trend<-NA
+
+## Add changes trend
+df.OG<-df.OG %>% mutate(Trend=ifelse((Change>0),
+                                     "Expansion", "Contraction"))
+## Reads significance table
+Base_family_Sig <- read.delim("Base_family_Sig.txt")
+
+## add significance and pvlues
+df.OG.Sig<-merge(df.OG,Base_family_Sig, by="FamilyID")
+
+## Write out file
+write.csv(df.OG.Sig, "catfish.OG.Sig.txt", row.names = F)
+
+## Extract significant OGs in expansion in CGAR
+df.CGAR.Exp<-df.OG.Sig %>% 
+  filter(Significance=="y" & Species=="CGAR" & Trend=="Expansion")
+
+### extract OG in contraction in CGAR
+df.CGAR.Con<-df.OG.Sig %>% 
+  filter(Significance=="y" & Species=="CGAR" & Trend=="Contraction")
+
+## Write out file
+write.csv(df.CGAR.Exp, "CGAR.OG.Exp.txt", row.names = F)
+write.csv(df.CGAR.Con, "CGAR.OG.Con.txt", row.names = F)
+
+
+
+
+ClaristList<-c("CGAR", "CFUS","CMAC", "CMAG","CBAT")
+
+## Extract significant OGs in expansion in Clarias spp.
+Clarias.Exp<-df.OG.Sig %>%
+  filter(Species=="CGAR" | Species=="CBAT" | Species=="CFUS" | Species=="CMAG" |Species=="CMAC") %>% 
+  filter(Significance=="y" & Trend=="Expansion") 
+
+Clarias.Exp.only<-Clarias.Exp %>% select(FamilyID) %>% table() %>%
+    as.data.frame()
+
+## Extract significant OGs in contraction in Clarias spp.
+Clarias.Con<-df.OG.Sig %>%
+  filter(Species=="CGAR" | Species=="CBAT" | Species=="CFUS" | Species=="CMAG" |Species=="CMAC") %>% 
+  filter(Significance=="y" & Trend=="Contraction") 
+
+Clarias.Con.only<-Clarias.Con %>% select(FamilyID) %>% table() %>%
+  as.data.frame()
+
+## Write out file
+write.csv(Clarias.Con, "Clarias.OG.Con.txt", row.names = F)
+write.csv(Clarias.Exp, "Clarias.OG.Exp.txt", row.names = F)
+
+
 ```
 
 ## Create an environment with python 3
