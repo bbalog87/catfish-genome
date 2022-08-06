@@ -11,7 +11,7 @@ means this gene family is exapnding for taxon X. A negative count means contract
 
 
 ## get column names 
-#HEADER= $(head -1 Base_change.tab)
+#HEADER= $(head -1 Base_change.tab) ## get columnID (Number) conatinaing Species
 COLUMN=(2 3 4 5 6 8 10 11 12 13 14 18 20 26)
 
 for i in ${!COLUMN[@]}; do 
@@ -29,8 +29,17 @@ awk '${COLUMN[$i]}  < 0 {print $1,${COLUMN[$i]}' Base_change.tab > Contractions.
 grep "$taxname\*" Base_asr.tre |awk '{print ${COLUMN[$i]}' >Sig.changes.${taxname}.txt
 
 ```
-Unfortunately, even geneID can't be downlaod by a single click. Information of each gene need to be exported manually to a TSV file.
-There are around 50 reported HRG in fish with ~1900 orthologs in different fish species (Last accessed: 10.05.2022).
+Unfortunately, this script is not working properly. So did the extarction manullay for each taxon
+
+```python
+
+# for getting expansions for the taxon or node that appears in the N-th column Base_change.tab file:
+awk '$N > 0 {print $1,$N}' Base_change.tab > Expansions_taxonName.txt
+
+#For contractions:
+awk '$N < 0 {print $1,$N}' Base_change.tab > Contractions_taxonName.txt
+````
+
 
 ## Clean files and extract GeneID
 The pattern "**more..**" is the most distinctive expression between "GeneNames" and "geneID" lines. Therefore, we'll grep geneIDs based on this pattern.
