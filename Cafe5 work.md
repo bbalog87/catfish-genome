@@ -5,7 +5,7 @@ The changes in each gene family and for each taxa are recorded in the file named
 the first column represents FamilyIDs. From column 2 on, the branches inclusding taxa. A posituve (>0) counts for a taxon X 
 means this gene family is exapnding for taxon X. A negative count means contracting geen family.
 
-All data are availebl unde this [LINK](https://unibox.uni-rostock.de/getlink/fiV6HqPPCCR3nEj2pHo9JvZa/)
+All data are available under this [LINK](https://unibox.uni-rostock.de/getlink/fiV6HqPPCCR3nEj2pHo9JvZa/)
 
 ## Exact genes family in expansion or contracvtion in each branch 
 
