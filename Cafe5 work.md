@@ -2,7 +2,7 @@
 # Process Cafe5 output to extract genes families in expansion and contraction on ecah branch
 
 The changes in each gene family and for each taxa are recorded in the file named _Base_change.tab_. 
-the fisrt column is the represnt familyIds. FRom column 2 on, the braches inclusding taxa. A posituve (>0) counts for a taxon X 
+the first column represents FamilyIDs. From column 2 on, the branches inclusding taxa. A posituve (>0) counts for a taxon X 
 means this gene family is exapnding for taxon X. A negative count means contracting geen family.
 
 All data are availebl unde this [LINK](https://unibox.uni-rostock.de/getlink/fiV6HqPPCCR3nEj2pHo9JvZa/)
