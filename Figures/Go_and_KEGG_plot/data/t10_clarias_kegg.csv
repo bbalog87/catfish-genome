@@ -1,0 +1,11 @@
+term,Database,ID,gene_number,Background number,P-Value,p_value_adjusted,enrich_ratio
+Metabolic pathways,KEGG PATHWAY,dre01100,1111,1507,4.91E-52,1.85E-49,0.737226277
+Neuroactive ligand-receptor interaction,KEGG PATHWAY,dre04080,382,499,3.17E-20,1.83E-18,0.765531062
+Regulation of actin cytoskeleton,KEGG PATHWAY,dre04810,227,271,2.45E-11,5.19E-10,0.837638376
+Calcium signaling pathway,KEGG PATHWAY,dre04020,175,288,2.40E-05,0.000201215,0.607638889
+Focal adhesion,KEGG PATHWAY,dre04510,171,243,4.78E-08,6.54E-07,0.703703704
+Herpes simplex virus 1 infection,KEGG PATHWAY,dre05168,167,188,3.89E-13,1.17E-11,0.888297872
+mTOR signaling pathway,KEGG PATHWAY,dre04150,163,186,1.73E-09,2.96E-08,0.876344086
+FoxO signaling pathway,KEGG PATHWAY,dre04068,160,167,3.18E-11,6.44E-10,0.958083832
+Cytokine-cytokine receptor interaction,KEGG PATHWAY,dre04060,157,195,1.48E-07,1.69E-06,0.805128205
+Autophagy - animal,KEGG PATHWAY,dre04140,155,162,6.83E-11,1.32E-09,0.956790123

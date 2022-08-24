@@ -1,0 +1,11 @@
+term,Database,ID,gene_number,Background number,P-Value,p_value_adjusted,enrich_ratio
+membrane,Gene Ontology,GO:0016020,4582,6613,4.12E-132,1.83E-129,0.692877665
+integral component of membrane,Gene Ontology,GO:0016021,4041,5893,1.95E-107,4.34E-105,0.685728831
+cytoplasm,Gene Ontology,GO:0005737,2303,3445,1.88E-49,1.67E-47,0.66850508
+nucleus,Gene Ontology,GO:0005634,2157,4033,1.24E-27,1.56E-25,0.53483759
+plasma membrane,Gene Ontology,GO:0005886,1900,2132,4.15E-105,6.16E-103,0.891181989
+metal ion binding,Gene Ontology,GO:0046872,1701,2709,2.82E-27,2.28E-25,0.627906977
+ATP binding,Gene Ontology,GO:0005524,1500,1658,1.53E-86,4.95E-84,0.904704463
+integral component of plasma membrane,Gene Ontology,GO:0005887,979,994,5.56E-66,6.18E-64,0.984909457
+signal transduction,Gene Ontology,GO:0007165,947,1299,4.96E-28,2.45E-26,0.729022325
+G protein-coupled receptor signaling pathway,Gene Ontology,GO:0007186,787,914,9.33E-39,6.92E-37,0.861050328

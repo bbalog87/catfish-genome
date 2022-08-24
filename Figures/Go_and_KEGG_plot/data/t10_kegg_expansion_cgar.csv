@@ -1,0 +1,11 @@
+term,gene_number,Background number,p_value,p_value_adjusted,enrich_ratio
+Metabolic pathways,748,1507,3.31E-05,0.000273251,0.496350365
+Apelin signaling pathway,162,178,8.44E-13,1.97E-11,0.91011236
+Vascular smooth muscle contraction,151,160,7.72E-13,1.88E-11,0.94375
+Insulin signaling pathway,136,167,7.27E-09,9.95E-08,0.814371257
+Herpes simplex virus 1 infection,135,188,1.26E-06,1.26E-05,0.718085106
+FoxO signaling pathway,133,167,2.65E-08,3.45E-07,0.796407186
+C-type lectin receptor signaling pathway,121,122,1.72E-11,3.44E-10,0.991803279
+Autophagy - animal,114,162,1.52E-05,0.000132928,0.703703704
+mTOR signaling pathway,111,186,0.001794594,0.009680453,0.596774194
+Ubiquitin mediated proteolysis,108,143,2.85E-06,2.75E-05,0.755244755

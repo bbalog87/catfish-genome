@@ -1,0 +1,11 @@
+term,ID,gene_number,Background number,p_value,p_value_adjusted,enrich_ratio
+membrane,GO:0016020,3938,6613,6.65E-91,1.24E-88,0.595493724
+integral component of membrane,GO:0016021,3466,5893,1.15E-72,1.29E-70,0.588155439
+cytoplasm,GO:0005737,2210,3445,3.47E-63,3.24E-61,0.641509434
+plasma membrane,GO:0005886,1631,2132,7.40E-81,1.04E-78,0.765009381
+nucleotide binding,GO:0000166,1504,1548,5.13E-127,2.88E-124,0.971576227
+ATP binding,GO:0005524,1446,1658,5.68E-98,1.59E-95,0.872135103
+transferase activity,GO:0016740,909,1553,7.31E-17,2.16E-15,0.585318738
+signal transduction,GO:0007165,847,1299,7.98E-25,2.98E-23,0.652040031
+integral component of plasma membrane,GO:0005887,749,994,7.16E-35,5.02E-33,0.753521127
+hydrolase activity,GO:0016787,669,1086,7.00E-16,1.87E-14,0.616022099

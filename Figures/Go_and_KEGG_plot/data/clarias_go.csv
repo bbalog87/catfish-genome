@@ -1,0 +1,281 @@
+term,Database,ID,gene_number,Background number,P-Value,p_value_adjusted,enrich_ratio
+actin binding,Gene Ontology,GO:0003779,240,300,8.19258E-11,2.94933E-09,0.8
+actin cytoskeleton,Gene Ontology,GO:0015629,107,115,1.05244E-07,1.89439E-06,0.930434783
+actin cytoskeleton,Gene Ontology,GO:0015629,84,115,4.40398E-05,0.000348609,0.730434783
+actin filament binding,Gene Ontology,GO:0051015,169,217,1.58214E-07,2.69796E-06,0.778801843
+anatomical structure development,Gene Ontology,GO:0048856,38,56,0.011236087,0.041017173,0.678571429
+anatomical structure morphogenesis,Gene Ontology,GO:0009653,65,67,1.53755E-05,0.000120037,0.970149254
+angiogenesis,Gene Ontology,GO:0001525,133,186,7.17104E-05,0.000480557,0.715053763
+antigen binding,Gene Ontology,GO:0003823,30,40,0.009048479,0.034540388,0.75
+antiporter activity,Gene Ontology,GO:0015297,29,33,0.00221701,0.01134144,0.878787879
+apoptotic process,Gene Ontology,GO:0006915,109,144,6.464E-05,0.000442535,0.756944444
+ATP binding,Gene Ontology,GO:0005524,1500,1658,1.5266E-86,4.94619E-84,0.904704463
+ATPase activity,Gene Ontology,GO:0016887,133,191,2.03629E-06,2.09766E-05,0.696335079
+autophagosome,Gene Ontology,GO:0005776,23,28,0.010374298,0.03862115,0.821428571
+axon,Gene Ontology,GO:0030424,81,129,0.001689647,0.008762857,0.627906977
+axon guidance,Gene Ontology,GO:0007411,109,161,0.001194247,0.005971237,0.677018634
+axonemal dynein complex assembly,Gene Ontology,GO:0070286,18,18,0.006222811,0.025711833,1
+axoneme,Gene Ontology,GO:0005930,34,43,0.012938983,0.042650722,0.790697674
+axoneme assembly,Gene Ontology,GO:0035082,18,18,0.006222811,0.025711833,1
+B cell receptor signaling pathway,Gene Ontology,GO:0050853,30,40,0.009048479,0.034540388,0.75
+blood vessel development,Gene Ontology,GO:0001568,71,77,7.83149E-07,9.06044E-06,0.922077922
+blood vessel morphogenesis,Gene Ontology,GO:0048514,45,50,0.000854067,0.004524523,0.9
+brain development,Gene Ontology,GO:0007420,181,194,2.00179E-15,7.52672E-14,0.932989691
+calcium ion binding,Gene Ontology,GO:0005509,492,691,3.97709E-21,2.62374E-19,0.712011577
+calcium ion transmembrane transport,Gene Ontology,GO:0070588,85,90,1.71266E-06,1.65682E-05,0.944444444
+carbohydrate binding,Gene Ontology,GO:0030246,113,168,0.001158078,0.005856188,0.672619048
+carbohydrate metabolic process,Gene Ontology,GO:0005975,133,164,9.66142E-07,9.99844E-06,0.81097561
+catalytic activity,Gene Ontology,GO:0003824,377,466,2.8828E-16,9.16319E-15,0.809012876
+catenin complex,Gene Ontology,GO:0016342,31,33,0.000771135,0.004460721,0.939393939
+C-C chemokine binding,Gene Ontology,GO:0019957,31,35,0.005978949,0.024107793,0.885714286
+C-C chemokine receptor activity,Gene Ontology,GO:0016493,31,36,0.007821576,0.030005184,0.861111111
+cell adhesion,Gene Ontology,GO:0007155,291,383,1.85274E-15,7.33294E-14,0.759791123
+cell chemotaxis,Gene Ontology,GO:0060326,31,38,0.01291534,0.042650722,0.815789474
+cell communication,Gene Ontology,GO:0007154,56,57,3.12009E-06,3.08725E-05,0.98245614
+cell cycle,Gene Ontology,GO:0007049,109,156,1.44531E-05,0.000126381,0.698717949
+cell differentiation,Gene Ontology,GO:0030154,321,471,3.50663E-08,4.72864E-07,0.681528662
+cell division,Gene Ontology,GO:0051301,73,123,0.007438824,0.030075243,0.593495935
+cell junction,Gene Ontology,GO:0030054,225,239,6.80557E-15,3.15001E-13,0.941422594
+cell migration,Gene Ontology,GO:0016477,135,155,5.20029E-08,6.53998E-07,0.870967742
+cell projection,Gene Ontology,GO:0042995,156,204,1.36503E-06,1.34987E-05,0.764705882
+cell redox homeostasis,Gene Ontology,GO:0045454,52,58,3.65179E-05,0.000295285,0.896551724
+cell surface,Gene Ontology,GO:0009986,98,138,2.40816E-05,0.000201215,0.710144928
+cell surface receptor signaling pathway,Gene Ontology,GO:0007166,75,121,0.003103897,0.014680064,0.619834711
+cell-matrix adhesion,Gene Ontology,GO:0007160,46,51,9.08479E-05,0.000676412,0.901960784
+cellular protein modification process,Gene Ontology,GO:0006464,27,32,0.004516187,0.020336361,0.84375
+channel activity,Gene Ontology,GO:0015267,25,28,0.012006956,0.040809875,0.892857143
+chemokine binding,Gene Ontology,GO:0019956,31,35,0.005978949,0.024107793,0.885714286
+chemotaxis,Gene Ontology,GO:0006935,49,67,0.009259343,0.033229094,0.731343284
+chromatin,Gene Ontology,GO:0000785,75,81,3.49544E-07,4.30913E-06,0.925925926
+cilium,Gene Ontology,GO:0005929,105,116,4.11641E-09,6.31742E-08,0.905172414
+cilium assembly,Gene Ontology,GO:0060271,164,209,2.46716E-07,2.74472E-06,0.784688995
+cilium movement,Gene Ontology,GO:0003341,37,39,0.000220265,0.001492246,0.948717949
+clathrin-coated vesicle,Gene Ontology,GO:0030136,21,24,0.008844714,0.034423865,0.875
+collagen trimer,Gene Ontology,GO:0005581,50,67,0.001012572,0.005640399,0.746268657
+collagen-containing extracellular matrix,Gene Ontology,GO:0062023,98,103,2.45313E-09,4.09945E-08,0.951456311
+"complement activation, classical pathway",Gene Ontology,GO:0006958,30,32,0.000951445,0.005339453,0.9375
+convergent extension,Gene Ontology,GO:0060026,48,53,0.000533438,0.003086092,0.905660377
+cysteine-type peptidase activity,Gene Ontology,GO:0008234,115,120,1.24349E-08,2.87779E-07,0.958333333
+cytokine-mediated signaling pathway,Gene Ontology,GO:0019221,54,59,1.78047E-05,0.000153079,0.915254237
+cytoplasm,Gene Ontology,GO:0005737,2303,3445,1.88158E-49,1.6746E-47,0.66850508
+cytoplasmic microtubule organization,Gene Ontology,GO:0031122,31,38,0.01291534,0.042650722,0.815789474
+cytoplasmic vesicle,Gene Ontology,GO:0031410,182,185,3.23511E-13,8.46839E-12,0.983783784
+cytoskeletal protein binding,Gene Ontology,GO:0008092,42,48,0.001794015,0.008492944,0.875
+cytoskeleton,Gene Ontology,GO:0005856,378,463,1.02446E-16,3.5068E-15,0.816414687
+cytoskeleton organization,Gene Ontology,GO:0007010,42,57,0.013930792,0.044837874,0.736842105
+cytosol,Gene Ontology,GO:0005829,739,861,4.02218E-36,2.55696E-34,0.858304297
+defense response to bacterium,Gene Ontology,GO:0042742,80,83,1.62998E-06,2.20047E-05,0.963855422
+dephosphorylation,Gene Ontology,GO:0016311,109,132,5.85662E-08,7.72663E-07,0.825757576
+determination of heart left/right asymmetry,Gene Ontology,GO:0061371,55,61,0.000236363,0.001460856,0.901639344
+determination of left/right symmetry,Gene Ontology,GO:0007368,91,108,3.7948E-07,4.60273E-06,0.842592593
+developmental growth,Gene Ontology,GO:0048589,15,15,0.012100455,0.043605053,1
+dioxygenase activity,Gene Ontology,GO:0051213,30,42,0.014228167,0.0495351,0.714285714
+DNA replication,Gene Ontology,GO:0006260,68,88,6.9291E-05,0.000526332,0.772727273
+DNA replication origin binding,Gene Ontology,GO:0003688,20,20,0.004019786,0.018432188,1
+DNA-binding transcription factor activity,Gene Ontology,GO:0003700,403,680,1.92687E-09,3.2932E-08,0.592647059
+"DNA-binding transcription repressor activity, RNA polymerase II-specific",Gene Ontology,GO:0001227,73,76,6.01955E-06,4.87036E-05,0.960526316
+"DNA-templated transcription, initiation",Gene Ontology,GO:0006352,20,21,0.005736538,0.024099868,0.952380952
+embryonic viscerocranium morphogenesis,Gene Ontology,GO:0048703,97,109,1.94282E-06,1.83948E-05,0.889908257
+endocytic recycling,Gene Ontology,GO:0032456,30,33,0.001317656,0.007128612,0.909090909
+endomembrane system,Gene Ontology,GO:0012505,82,96,9.59167E-07,1.06073E-05,0.854166667
+endoplasmic reticulum,Gene Ontology,GO:0005783,369,595,2.04139E-10,4.51508E-09,0.620168067
+endosome membrane,Gene Ontology,GO:0010008,30,39,0.00710897,0.029034116,0.769230769
+epidermal growth factor receptor signaling pathway,Gene Ontology,GO:0007173,15,15,0.012100455,0.043605053,1
+extracellular matrix,Gene Ontology,GO:0031012,133,193,2.98588E-06,3.01302E-05,0.689119171
+extracellular matrix organization,Gene Ontology,GO:0030198,110,124,3.50184E-07,5.15726E-06,0.887096774
+extracellular region,Gene Ontology,GO:0005576,467,671,3.48622E-12,8.61872E-11,0.695976155
+extracellular space,Gene Ontology,GO:0005615,527,897,1.89216E-06,2.35792E-05,0.587513935
+extrinsic component of cytoplasmic side of plasma membrane,Gene Ontology,GO:0031234,32,45,0.012118957,0.043605053,0.711111111
+fatty acid biosynthetic process,Gene Ontology,GO:0006633,38,48,0.008841917,0.032251254,0.791666667
+fatty acid metabolic process,Gene Ontology,GO:0006631,71,73,2.0816E-07,2.69891E-06,0.97260274
+ferrous iron binding,Gene Ontology,GO:0008198,22,25,0.007142702,0.029034116,0.88
+fin regeneration,Gene Ontology,GO:0031101,52,77,0.003711206,0.017121637,0.675324675
+focal adhesion,Gene Ontology,GO:0005925,60,61,2.45567E-05,0.000182129,0.983606557
+G protein-coupled peptide receptor activity,Gene Ontology,GO:0008528,48,58,0.00195011,0.009134724,0.827586207
+G protein-coupled receptor activity,Gene Ontology,GO:0004930,574,805,1.56714E-16,8.46256E-15,0.713043478
+G protein-coupled receptor binding,Gene Ontology,GO:0001664,36,49,0.005704531,0.024099868,0.734693878
+G protein-coupled receptor signaling pathway,Gene Ontology,GO:0007186,787,914,9.32633E-39,6.91703E-37,0.861050328
+glutamate receptor activity,Gene Ontology,GO:0008066,21,22,0.012922489,0.042650722,0.954545455
+Golgi apparatus,Gene Ontology,GO:0005794,378,533,2.36409E-16,1.10266E-14,0.709193246
+Golgi membrane,Gene Ontology,GO:0000139,179,217,4.46302E-12,1.15731E-10,0.824884793
+Golgi organization,Gene Ontology,GO:0007030,47,56,0.001781132,0.008492944,0.839285714
+GTP binding,Gene Ontology,GO:0005525,463,495,3.46898E-28,1.92962E-26,0.935353535
+GTPase activity,Gene Ontology,GO:0003924,340,355,3.87277E-22,1.72338E-20,0.957746479
+heart development,Gene Ontology,GO:0007507,206,236,1.73052E-11,3.8504E-10,0.872881356
+heart looping,Gene Ontology,GO:0001947,119,129,3.97055E-08,5.19674E-07,0.92248062
+heart morphogenesis,Gene Ontology,GO:0003007,52,59,0.000431526,0.003883736,0.881355932
+hematopoietic progenitor cell differentiation,Gene Ontology,GO:0002244,43,52,0.000535786,0.00314774,0.826923077
+heme binding,Gene Ontology,GO:0020037,115,162,5.12531E-06,4.94132E-05,0.709876543
+heterotrimeric G-protein complex,Gene Ontology,GO:0005834,52,53,7.07571E-06,6.56905E-05,0.981132075
+hindbrain development,Gene Ontology,GO:0030902,45,50,0.00011143,0.000813546,0.9
+homophilic cell adhesion via plasma membrane adhesion molecules,Gene Ontology,GO:0007156,133,171,4.3244E-06,3.63086E-05,0.777777778
+hormone activity,Gene Ontology,GO:0005179,65,104,0.00487961,0.021458868,0.625
+hyaluronic acid binding,Gene Ontology,GO:0005540,23,24,0.002999824,0.014277642,0.958333333
+hydrolase activity,Gene Ontology,GO:0016787,570,1086,5.08923E-07,6.07477E-06,0.524861878
+"hydrolase activity, acting on glycosyl bonds",Gene Ontology,GO:0016798,54,61,3.30356E-05,0.000272997,0.885245902
+immune response,Gene Ontology,GO:0006955,247,263,7.81567E-16,2.31865E-14,0.939163498
+immune system process,Gene Ontology,GO:0002376,56,64,0.000347151,0.002087599,0.875
+inflammatory response,Gene Ontology,GO:0006954,124,153,2.24695E-06,2.08311E-05,0.810457516
+innate immune response,Gene Ontology,GO:0045087,123,133,1.55812E-08,3.36042E-07,0.92481203
+"inositol 1,4,5 trisphosphate binding",Gene Ontology,GO:0070679,16,17,0.013814436,0.048318398,0.941176471
+insulin-like growth factor binding,Gene Ontology,GO:0005520,30,30,0.000474702,0.002855805,1
+integral component of membrane,Gene Ontology,GO:0016021,4041,5893,1.9517E-107,4.3426E-105,0.685728831
+integral component of plasma membrane,Gene Ontology,GO:0005887,979,994,5.5555E-66,6.18049E-64,0.984909457
+integral component of plasma membrane,Gene Ontology,GO:0005887,664,994,4.43131E-23,3.33235E-21,0.668008048
+intermediate filament,Gene Ontology,GO:0005882,56,73,0.000326808,0.002082706,0.767123288
+interstrand cross-link repair,Gene Ontology,GO:0036297,20,22,0.008009932,0.031536485,0.909090909
+intracellular anatomical structure,Gene Ontology,GO:0005622,55,55,3.90236E-05,0.000280089,1
+intracellular membrane-bounded organelle,Gene Ontology,GO:0043231,183,246,8.89659E-10,1.76736E-08,0.743902439
+intracellular protein transport,Gene Ontology,GO:0006886,185,297,4.90454E-06,4.78989E-05,0.622895623
+intracellular signal transduction,Gene Ontology,GO:0035556,404,502,4.91506E-24,4.1068E-22,0.804780876
+intraciliary transport,Gene Ontology,GO:0042073,20,21,0.005736538,0.024099868,0.952380952
+ion channel activity,Gene Ontology,GO:0005216,175,220,5.29077E-08,6.53998E-07,0.795454545
+ion channel binding,Gene Ontology,GO:0044325,32,38,0.008633233,0.031750319,0.842105263
+ion transport,Gene Ontology,GO:0006811,366,512,7.79935E-11,1.44613E-09,0.71484375
+iron ion binding,Gene Ontology,GO:0005506,96,173,0.009787248,0.036800054,0.554913295
+kinase activity,Gene Ontology,GO:0016301,407,694,4.03401E-09,6.31742E-08,0.586455331
+kinesin complex,Gene Ontology,GO:0005871,49,55,0.000601217,0.00343002,0.890909091
+lamellipodium,Gene Ontology,GO:0030027,38,46,0.005052825,0.038072447,0.826086957
+late endosome membrane,Gene Ontology,GO:0031902,28,38,0.013351708,0.047119259,0.736842105
+lipid catabolic process,Gene Ontology,GO:0016042,50,63,0.002885478,0.012588605,0.793650794
+locomotory behavior,Gene Ontology,GO:0007626,42,52,0.004835925,0.020112025,0.807692308
+lyase activity,Gene Ontology,GO:0016829,90,125,3.52014E-05,0.000287733,0.72
+lysosomal membrane,Gene Ontology,GO:0005765,75,81,1.07045E-05,8.50625E-05,0.925925926
+lysosome,Gene Ontology,GO:0005764,115,154,4.85983E-05,0.000507931,0.746753247
+macroautophagy,Gene Ontology,GO:0016236,18,20,0.012374366,0.044102006,0.9
+magnesium ion binding,Gene Ontology,GO:0000287,71,106,0.000939782,0.005313653,0.669811321
+mediator complex,Gene Ontology,GO:0016592,40,43,0.000164747,0.001147129,0.930232558
+membrane,Gene Ontology,GO:0016020,4582,6613,4.1171E-132,1.8321E-129,0.692877665
+membrane raft,Gene Ontology,GO:0045121,29,35,0.013866415,0.044837874,0.828571429
+metal ion binding,Gene Ontology,GO:0046872,1701,2709,2.81974E-27,2.28399E-25,0.627906977
+metalloendopeptidase activity,Gene Ontology,GO:0004222,98,120,1.97416E-05,0.000148899,0.816666667
+metallopeptidase activity,Gene Ontology,GO:0008237,112,122,1.15239E-07,1.34951E-06,0.918032787
+microtubule,Gene Ontology,GO:0005874,139,168,8.93082E-10,1.76736E-08,0.827380952
+microtubule binding,Gene Ontology,GO:0008017,173,200,6.90953E-13,1.99845E-11,0.865
+microtubule cytoskeleton organization,Gene Ontology,GO:0000226,110,121,1.51898E-09,2.85568E-08,0.909090909
+microtubule-based process,Gene Ontology,GO:0007017,34,35,0.000292448,0.001912357,0.971428571
+mitochondrial inner membrane,Gene Ontology,GO:0005743,110,169,0.002876694,0.012588605,0.650887574
+mitochondrial outer membrane,Gene Ontology,GO:0005741,55,77,0.008481952,0.031453905,0.714285714
+monooxygenase activity,Gene Ontology,GO:0004497,74,117,0.002266085,0.011514161,0.632478632
+motor neuron axon guidance,Gene Ontology,GO:0008045,38,49,0.011012893,0.038461123,0.775510204
+mRNA processing,Gene Ontology,GO:0006397,130,163,1.40103E-08,2.06583E-07,0.797546012
+multicellular organism development,Gene Ontology,GO:0007275,480,619,5.66508E-18,2.29178E-16,0.775444265
+muscle organ development,Gene Ontology,GO:0007517,34,38,0.003694982,0.015963756,0.894736842
+myofibril assembly,Gene Ontology,GO:0030239,31,35,0.001461677,0.007686579,0.885714286
+NAD binding,Gene Ontology,GO:0051287,28,34,0.004867765,0.021458868,0.823529412
+negative chemotaxis,Gene Ontology,GO:0050919,39,43,0.001665098,0.008054007,0.906976744
+negative regulation of apoptotic process,Gene Ontology,GO:0043066,143,205,9.02446E-05,0.000590571,0.697560976
+negative regulation of canonical Wnt signaling pathway,Gene Ontology,GO:0090090,47,58,0.002869329,0.012588605,0.810344828
+negative regulation of cell population proliferation,Gene Ontology,GO:0008285,43,51,0.000406089,0.002503109,0.843137255
+negative regulation of endopeptidase activity,Gene Ontology,GO:0010951,33,43,0.005033329,0.022006184,0.76744186
+negative regulation of neuron apoptotic process,Gene Ontology,GO:0043524,22,24,0.005203482,0.02239153,0.916666667
+negative regulation of transcription by RNA polymerase II,Gene Ontology,GO:0000122,299,320,1.41319E-24,1.3284E-22,0.934375
+"negative regulation of transcription, DNA-templated",Gene Ontology,GO:0045892,102,175,0.002784137,0.013420969,0.582857143
+nervous system development,Gene Ontology,GO:0007399,151,223,1.37972E-06,1.50369E-05,0.677130045
+neural crest cell development,Gene Ontology,GO:0014032,32,44,0.009740377,0.036800054,0.727272727
+neural crest cell migration,Gene Ontology,GO:0001755,85,99,5.31111E-07,6.24056E-06,0.858585859
+neuromast development,Gene Ontology,GO:0048884,25,25,0.00444269,0.034272183,1
+neuron differentiation,Gene Ontology,GO:0030182,103,117,1.51596E-08,2.19231E-07,0.88034188
+neuron projection,Gene Ontology,GO:0043005,219,241,1.74484E-17,9.37226E-16,0.908713693
+neuronal cell body,Gene Ontology,GO:0043025,42,58,0.00360022,0.016712133,0.724137931
+neuropeptide signaling pathway,Gene Ontology,GO:0007218,71,80,1.98346E-06,2.07161E-05,0.8875
+neutrophil differentiation,Gene Ontology,GO:0030223,20,21,0.005736538,0.024099868,0.952380952
+non-motile cilium assembly,Gene Ontology,GO:1905515,20,22,0.008009932,0.031536485,0.909090909
+nuclear chromatin,Gene Ontology,GO:0000790,101,104,6.82885E-10,1.46723E-08,0.971153846
+nuclear envelope,Gene Ontology,GO:0005635,42,58,0.00360022,0.016712133,0.724137931
+nuclear membrane,Gene Ontology,GO:0031965,20,23,0.01095977,0.040400721,0.869565217
+nucleobase-containing compound metabolic process,Gene Ontology,GO:0006139,25,31,0.009010655,0.034540388,0.806451613
+nucleoplasm,Gene Ontology,GO:0005654,146,253,0.00056882,0.003315912,0.577075099
+nucleotide-excision repair,Gene Ontology,GO:0006289,22,24,0.005203482,0.02239153,0.916666667
+nucleus,Gene Ontology,GO:0005634,2157,4033,1.24153E-27,1.55605E-25,0.53483759
+ossification,Gene Ontology,GO:0001503,29,34,0.010765673,0.038021622,0.852941176
+oxidation-reduction process,Gene Ontology,GO:0055114,403,614,1.087E-13,3.40594E-12,0.656351792
+oxidoreductase activity,Gene Ontology,GO:0016491,380,537,2.49272E-16,1.10266E-14,0.707635009
+"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",Gene Ontology,GO:0016705,79,109,8.72999E-05,0.000656496,0.724770642
+"oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor",Gene Ontology,GO:0016616,39,48,0.006042501,0.024107793,0.8125
+P-body,Gene Ontology,GO:0000932,35,51,0.012971972,0.046013786,0.68627451
+peptidase activity,Gene Ontology,GO:0008233,273,379,6.71689E-09,1.81356E-07,0.720316623
+perinuclear region of cytoplasm,Gene Ontology,GO:0048471,80,85,3.70293E-06,3.16885E-05,0.941176471
+peroxisome,Gene Ontology,GO:0005777,51,61,0.000143386,0.001036789,0.836065574
+"phagocytosis, engulfment",Gene Ontology,GO:0006911,30,33,0.001317656,0.007128612,0.909090909
+phosphatase activity,Gene Ontology,GO:0016791,92,158,0.00440492,0.01995482,0.582278481
+phospholipase activity,Gene Ontology,GO:0004620,29,30,0.000836222,0.004800295,0.966666667
+phospholipid binding,Gene Ontology,GO:0005543,42,53,0.006067579,0.024107793,0.79245283
+phosphoprotein phosphatase activity,Gene Ontology,GO:0004721,79,128,0.002670747,0.012957431,0.6171875
+phosphorylation,Gene Ontology,GO:0016310,371,696,1.79135E-05,0.000153079,0.533045977
+pigmentation,Gene Ontology,GO:0043473,35,35,0.000166385,0.001147906,1
+plasma membrane,Gene Ontology,GO:0005886,1900,2132,4.1519E-105,6.1587E-103,0.891181989
+positive regulation of canonical Wnt signaling pathway,Gene Ontology,GO:0090263,42,45,0.000774388,0.004259366,0.933333333
+positive regulation of cell population proliferation,Gene Ontology,GO:0008284,57,90,0.006575164,0.027019252,0.633333333
+positive regulation of cytosolic calcium ion concentration,Gene Ontology,GO:0007204,55,73,0.000499087,0.002978677,0.753424658
+positive regulation of ERK1 and ERK2 cascade,Gene Ontology,GO:0070374,65,82,0.0007753,0.004259366,0.792682927
+positive regulation of GTPase activity,Gene Ontology,GO:0043547,65,77,0.000243586,0.001484873,0.844155844
+positive regulation of transcription by RNA polymerase II,Gene Ontology,GO:0045944,436,549,1.20671E-17,4.47488E-16,0.79417122
+postsynaptic membrane,Gene Ontology,GO:0045211,99,122,1.70098E-05,0.000183706,0.81147541
+potassium ion transport,Gene Ontology,GO:0006813,106,129,6.04644E-06,6.99659E-05,0.821705426
+"preribosome, large subunit precursor",Gene Ontology,GO:0030687,22,22,0.002607088,0.012813923,1
+proteasome-mediated ubiquitin-dependent protein catabolic process,Gene Ontology,GO:0043161,105,113,1.60156E-09,2.90546E-08,0.92920354
+protein autophosphorylation,Gene Ontology,GO:0046777,114,146,1.77105E-05,0.000135882,0.780821918
+protein binding,Gene Ontology,GO:0005515,272,306,2.57014E-15,7.14821E-14,0.888888889
+protein dephosphorylation,Gene Ontology,GO:0006470,91,140,0.000414062,0.002531502,0.65
+protein dimerization activity,Gene Ontology,GO:0046983,143,187,3.65094E-06,3.16885E-05,0.764705882
+protein disulfide oxidoreductase activity,Gene Ontology,GO:0015035,22,22,0.002607088,0.012813923,1
+protein glycosylation,Gene Ontology,GO:0006486,79,124,0.001429542,0.007624225,0.637096774
+protein heterodimerization activity,Gene Ontology,GO:0046982,134,143,2.11829E-09,6.23932E-08,0.937062937
+protein kinase binding,Gene Ontology,GO:0019901,78,93,7.23535E-05,0.000480557,0.838709677
+protein localization to plasma membrane,Gene Ontology,GO:0072659,58,64,1.08294E-05,9.81174E-05,0.90625
+protein polyubiquitination,Gene Ontology,GO:0000209,98,103,1.77245E-07,2.87006E-06,0.951456311
+protein serine/threonine kinase activity,Gene Ontology,GO:0004674,262,530,0.0059906,0.025027394,0.494339623
+protein transport,Gene Ontology,GO:0015031,202,268,5.60366E-11,1.40465E-09,0.753731343
+protein tyrosine phosphatase activity,Gene Ontology,GO:0004725,112,122,7.45359E-10,1.55697E-08,0.918032787
+protein tyrosine/serine/threonine phosphatase activity,Gene Ontology,GO:0008138,37,55,0.013408938,0.047119259,0.672727273
+proteolysis,Gene Ontology,GO:0006508,324,537,6.13124E-05,0.000426312,0.603351955
+proteolysis involved in cellular protein catabolic process,Gene Ontology,GO:0051603,40,56,0.005210795,0.02239153,0.714285714
+pyridoxal phosphate binding,Gene Ontology,GO:0030170,39,52,0.014424237,0.045848467,0.75
+"regulation of alternative mRNA splicing, via spliceosome",Gene Ontology,GO:0000381,51,72,0.002009843,0.010352069,0.708333333
+regulation of cell cycle,Gene Ontology,GO:0051726,84,91,3.5653E-06,3.16885E-05,0.923076923
+regulation of cell migration,Gene Ontology,GO:0030334,57,69,0.000809551,0.004340366,0.826086957
+regulation of cell population proliferation,Gene Ontology,GO:0042127,79,95,3.005E-06,3.01302E-05,0.831578947
+regulation of cell shape,Gene Ontology,GO:0008360,48,77,0.014423159,0.049772857,0.623376623
+regulation of GTPase activity,Gene Ontology,GO:0043087,44,52,0.002202166,0.009999633,0.846153846
+regulation of immune response,Gene Ontology,GO:0050776,27,27,0.003175013,0.025717604,1
+regulation of ion transmembrane transport,Gene Ontology,GO:0034765,85,122,0.002193222,0.009999633,0.696721311
+regulation of neuron differentiation,Gene Ontology,GO:0045664,23,27,0.007800364,0.031201456,0.851851852
+"regulation of transcription, DNA-templated",Gene Ontology,GO:0006355,653,1136,1.26014E-12,3.50973E-11,0.574823944
+repressing transcription factor binding,Gene Ontology,GO:0070491,27,27,0.000895138,0.005099574,1
+retina layer formation,Gene Ontology,GO:0010842,43,47,0.000883364,0.004624669,0.914893617
+"retrograde transport, endosome to Golgi",Gene Ontology,GO:0042147,32,41,0.004784305,0.02128874,0.780487805
+ribosome biogenesis,Gene Ontology,GO:0042254,40,53,0.002662397,0.012957431,0.754716981
+RNA polymerase II cis-regulatory region sequence-specific DNA binding,Gene Ontology,GO:0000978,240,349,1.0805E-06,1.09277E-05,0.687679083
+RNA polymerase II transcription regulatory region sequence-specific DNA binding,Gene Ontology,GO:0000977,239,402,0.000683346,0.005826423,0.594527363
+sarcomere organization,Gene Ontology,GO:0045214,38,39,0.000796932,0.004324812,0.974358974
+semaphorin-plexin signaling pathway,Gene Ontology,GO:0071526,40,51,0.008177694,0.030839608,0.784313725
+serine-type endopeptidase activity,Gene Ontology,GO:0004252,162,182,6.06771E-10,1.96594E-08,0.89010989
+signal transduction,Gene Ontology,GO:0007165,947,1299,4.95991E-28,2.4524E-26,0.729022325
+signaling receptor activity,Gene Ontology,GO:0038023,162,198,6.85784E-11,1.61159E-09,0.818181818
+signaling receptor activity,Gene Ontology,GO:0038023,160,198,9.65942E-08,1.16174E-06,0.808080808
+single-stranded DNA binding,Gene Ontology,GO:0003697,56,61,0.000152811,0.000957758,0.918032787
+skeletal muscle fiber development,Gene Ontology,GO:0048741,47,51,5.39826E-05,0.000414234,0.921568627
+skeletal muscle tissue development,Gene Ontology,GO:0007519,42,63,0.009854265,0.036867697,0.666666667
+skeletal system development,Gene Ontology,GO:0001501,41,57,0.004332616,0.019746227,0.719298246
+somite development,Gene Ontology,GO:0061053,37,40,0.000306512,0.001987044,0.925
+spindle,Gene Ontology,GO:0005819,33,37,0.004336741,0.01820613,0.891891892
+structural constituent of eye lens,Gene Ontology,GO:0005212,46,64,0.014005538,0.044837874,0.71875
+swimming behavior,Gene Ontology,GO:0036269,27,28,0.004397422,0.034272183,0.964285714
+synaptic vesicle,Gene Ontology,GO:0008021,57,81,0.009213787,0.033229094,0.703703704
+tissue development,Gene Ontology,GO:0009888,36,39,0.000377173,0.002363617,0.923076923
+transcription coregulator activity,Gene Ontology,GO:0003712,77,88,3.08677E-05,0.000225183,0.875
+transcription regulatory region sequence-specific DNA binding,Gene Ontology,GO:0000976,146,160,2.01701E-09,3.32433E-08,0.9125
+transferase activity,Gene Ontology,GO:0016740,785,1553,3.42362E-07,4.30913E-06,0.505473278
+"transferase activity, transferring acyl groups",Gene Ontology,GO:0016746,85,130,0.007322414,0.028583107,0.653846154
+"transferase activity, transferring glycosyl groups",Gene Ontology,GO:0016757,136,248,0.003469515,0.01630672,0.548387097
+trans-Golgi network,Gene Ontology,GO:0005802,76,88,1.7727E-06,1.87757E-05,0.863636364
+translational initiation,Gene Ontology,GO:0006413,37,54,0.011041405,0.040503104,0.685185185
+transmembrane transport,Gene Ontology,GO:0055085,400,565,3.86441E-17,1.93736E-15,0.707964602
+transmembrane transporter activity,Gene Ontology,GO:0022857,183,252,3.22732E-09,5.16371E-08,0.726190476
+ubiquitin ligase complex,Gene Ontology,GO:0000151,56,60,9.83188E-05,0.000995478,0.933333333
+ubiquitin-dependent protein catabolic process,Gene Ontology,GO:0006511,140,223,4.92865E-05,0.000386078,0.627802691
+vesicle-mediated transport,Gene Ontology,GO:0016192,209,244,2.33341E-11,9.4503E-10,0.856557377
+voltage-gated ion channel activity,Gene Ontology,GO:0005244,85,119,0.001325231,0.006552532,0.714285714
+Wnt signaling pathway,Gene Ontology,GO:0016055,121,129,6.48982E-11,1.5743E-09,0.937984496
+zinc ion transport,Gene Ontology,GO:0006829,18,19,0.008880625,0.034423865,0.947368421
