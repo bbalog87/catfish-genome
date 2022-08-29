@@ -1,0 +1,11 @@
+term,Database,ID,molecular_function,gene_number,Background number,P-Value,p_value_adjusted,enrich_ratio
+metal ion binding,Gene Ontology,GO:0046872,GO:0046872,1701,2709,2.81974E-27,2.28399E-25,0.627906977
+ATP binding,Gene Ontology,GO:0005524,GO:0005524,1500,1658,1.5266E-86,4.94619E-84,0.904704463
+transferase activity,Gene Ontology,GO:0016740,GO:0016740,785,1553,3.42362E-07,4.30913E-06,0.505473278
+G protein-coupled receptor activity,Gene Ontology,GO:0004930,GO:0004930,574,805,1.56714E-16,8.46256E-15,0.713043478
+hydrolase activity,Gene Ontology,GO:0016787,GO:0016787,570,1086,5.08923E-07,6.07477E-06,0.524861878
+calcium ion binding,Gene Ontology,GO:0005509,GO:0005509,492,691,3.97709E-21,2.62374E-19,0.712011577
+GTP binding,Gene Ontology,GO:0005525,GO:0005525,463,495,3.46898E-28,1.92962E-26,0.935353535
+kinase activity,Gene Ontology,GO:0016301,GO:0016301,407,694,4.03401E-09,6.31742E-08,0.586455331
+DNA-binding transcription factor activity,Gene Ontology,GO:0003700,GO:0003700,403,680,1.92687E-09,3.2932E-08,0.592647059
+oxidoreductase activity,Gene Ontology,GO:0016491,GO:0016491,380,537,2.49272E-16,1.10266E-14,0.707635009
