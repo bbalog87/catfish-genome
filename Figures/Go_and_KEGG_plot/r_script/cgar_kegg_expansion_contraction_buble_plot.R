@@ -8,13 +8,11 @@ library(patchwork)
 
 
 kegg_cgar = read.csv("t10_kegg_expansion_cgar.csv", sep = ",", h = T)
-
-go_cgar = read.csv("t10_go_expansion_cgar.csv", sep = ",", h = T)
-
-
 kegg_cla = read.csv("t10_clarias_kegg.csv", sep = ",", h = T)
 
-go_cla = read.csv("t10_clarias_go.csv", sep = ",", h = T)
+
+go_cgar = read.csv("cgar_mf_only.csv", sep = ",", h = T)
+go_cla = read.csv("clarias_mf_only.csv", sep = ",", h = T)
 
 
 
