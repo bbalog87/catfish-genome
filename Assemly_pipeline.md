@@ -97,3 +97,30 @@ The following procedure was followed to infer phased (haplotype-specific) HiFi r
   - Non-coding RNA annotation
   - Protein-coding genes annotation
   
+  
+  **Table 2:** Summary of assembly metrics
+  
+  | Category                | Quality Metrics                   |    Primary   | Haplotype-1 |  Haplotype-2 |
+|-------------------------|-----------------------------------|:------------:|:-----------:|:------------:|
+| General                 | Total asembly size (Mb)           |    969.72    |    972.60   |    954.24    |
+|                         | GC content                        |     39.0     |    38.98    |     38.93    |
+|                         | Repeat content (%)                |     49.94    |    50.07    |     49.29    |
+| Continuity              | No. Contigs                       |      49      |     142     |      212     |
+|                         | Contig N50 (Mb)                   |     33.71    |    32.12    |     19.53    |
+|                         | No. Scaffolds                     |      49      |     119     |      98      |
+|                         | Scaffolds N50 (Mb)                |     33.71    |     34.0    |     33.18    |
+|                         | Scaffold L50                      |      12      |      12     |      12      |
+|                         | Number of gaps                    |       0      |     180     |      115     |
+|                         | % Unplaced sequences (Mbp)        | 1.01 (12.69) | 1.70 (16.5) | 2.63 (25.12) |
+|                         | % Ungapped length                 |      100     |    99.99    |     98.54    |
+| Base accuracy           | QV                                |     41.86    |    38.14    |     39.39    |
+| Structural accuracy     | k-mer completeness (%)            |     98.32    |    83.61    |     81.93    |
+|                         | Concondantly mapped PE reads  (%) |     96.75    |    96.69    |     97.81    |
+|                         | BUSCO duplicate (%)               |     1.21     |     1.47    |     1.31     |
+|                         | BUSCO missing  (%)                |     2.06     |     2.47    |     2.58     |
+|                         | Reliably  phased blocks (%)       |      ---     |    96.87    |     94.00    |
+| Functional completeness | Proteing coding genes             |    25,655    |    23,577   |    24,223    |
+|                         | BUSCO complete (%)                |     97.50    |    96.95    |     96.76    |
+|                         | NR  annotation  (%)               |     87.80    |    86.17    |     87.00    |
+|                         | Swissprot/Uniprot annotation (%)  |     68.23    |    63.12    |     64.45    |
+|                         | Transcripts alignment rate (%)    |     91.52    |    89.61    |     89.09    |
