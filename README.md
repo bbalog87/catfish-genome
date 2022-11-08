@@ -137,8 +137,8 @@ dated 320 Mya (Jaillon et al. 2004). This dramatic evolutionary event, referred 
 >> Ok I think this is easy. 1) Identify paralogs in all catfish and classify them. ====> Check if some families of important genes are contained in this list. ====> Analyze their comparative evolution. 2) Analyse positive selection/evolution of paralogs in catfish. 3) Which genes are retained? What are their function? loss of function? Neofunctionalization?
 
 
-#### 07.04- 2022 : Expermient Idea for nature communaication
-- Evolution of some key gens among catfihs (which genes might be of genrela interest, hence consiederd as key genes for catfishes??)
+#### 07.04- 2022 : Experiment Idea for nat. communications
+- Evolution of some key genes among catfishes (which genes might be of general interest, hence considered as key genes for catfishes??)
 
 
 
