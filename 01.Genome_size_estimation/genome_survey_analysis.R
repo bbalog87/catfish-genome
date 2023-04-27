@@ -6,7 +6,7 @@ kmer_histogram <- read.table("kmer_histogram.txt",
                              col.names = c("kmer_multiplicity", "frequency"))
 
 
-# Plot kmer histogram
+# Plot k-mer histogram
 histo.plot<-ggplot(kmer_histogram[19:250,], aes(x = kmer_multiplicity, y = frequency)) +
   geom_bar(stat = "identity", fill = "lightblue") +
   labs(title = "21-mers histogram", x = "kmer_multiplicity", y = "") +
