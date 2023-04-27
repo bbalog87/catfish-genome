@@ -62,7 +62,7 @@ est_genome_coverage <- estimate_genome_coverage(kmer_length = kmer_length,
                                                 kmer_frequency = kmer_histogram$frequency,
                                                 genome_size = 980546286.52)
 
-# Total observed and trusted kmers
+# Total observed and trusted k-mers
 total_trusted_kmers <- kmer_histogram %>%
   filter(kmer_multiplicity >= error_turning_point) %>%
   summarise(sum(frequency)) %>%
