@@ -75,8 +75,7 @@ total_trusted_kmers <- kmer_histogram %>%
 
 num_het_sites <- num_distinct_kmers / 2
 het_rate <- num_het_sites / total_kmers_size  # ==> 0.01564779
-# Altrernativley, can we can divide num_het_sites by the total
-# number of bases spanned by all reads
+# Alternatively, we can divide num_het_sites by the total number of bases spanned by all reads
 het_rate2 <- num_het_sites / total_num_bases  # ==> 0.01562774
 
 # Print heterozygosity rate
