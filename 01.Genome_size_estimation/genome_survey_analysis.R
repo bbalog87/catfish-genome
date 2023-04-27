@@ -71,7 +71,7 @@ total_trusted_kmers <- kmer_histogram %>%
 # Heterozygosity rate
 # Heterozygosity rate = (Number of distinct k-mers / Total number of k-mers) / 2
 # Each heterozygous site in a diploid genome ideally generates 2 distinct kmers
-# The number het_site = number of distinct k-mers /2
+# The total number of het. sites = number of distinct k-mers / 2
 
 num_het_sites <- num_distinct_kmers / 2
 het_rate <- num_het_sites / total_kmers_size  # ==> 0.01564779
