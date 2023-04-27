@@ -1,7 +1,7 @@
 library(dplyr)
 library(ggplot2)
 
-# Read in the kmer histogram data
+# Load the k-mers histogram data
 kmer_histogram <- read.table("kmer_histogram.txt", 
                              col.names = c("kmer_multiplicity", "frequency"))
 
