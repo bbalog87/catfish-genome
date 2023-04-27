@@ -33,7 +33,7 @@ total_num_bases <- 132796377525 # Total bases obtained from HiFi reads
 total_kmers_size <- 132626191845 # Total size spanned by k-mers
 num_distinct_kmers <- 4150614052 # distinct k-mers count
 
-# Erroneous kmers lowest turning point
+# Erroneous k-mers lowest turning point
 error_turning_point <- which.min(kmer_histogram$frequency[1:50])
 
 # Heterozygous k-mers peak
