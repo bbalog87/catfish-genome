@@ -25,7 +25,7 @@ echo "===== PROCESSING $AB : Pool of all clean HiFi samples ========"
 /usr/bin/time -o out.ABrun.time.ram.txt -v \
 ./hifiasm -o AB.asm \
           -t 91 \
-		  --hg-size 1200m \
+		  --hg-size 1000m \
 		  --hom-cov 134 -l3  -s 0.35 \
 		  --n-perturb 75000 \
 		  --f-perturb 0.15 \
