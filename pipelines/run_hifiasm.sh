@@ -25,6 +25,7 @@ echo "===== PROCESSING $AB : Pool of all clean HiFi samples ========"
 		  --hg-size 1000m \
 		  --primary -l3 \
 		  --hom-cov 134  \
+		  --min-hist-cnt 19 \
 		  $AB
 
 
@@ -37,6 +38,7 @@ echo "===== PROCESSING $AB : Pool of all clean HiFi samples ========"
 		  --n-perturb 75000 \
 		  --f-perturb 0.15 \
 		  --n-weight 5 \
+		  --min-hist-cnt 19 \
 		  --h1 $HICreads1 \
 		  --h2 $HICreads2 \
 		  $AB
@@ -45,6 +47,4 @@ echo "===== PROCESSING $AB : Pool of all clean HiFi samples ========"
 for FILE in *ctg.gfa; do
 awk '/^S/{print ">"$2;print $3}' $FILE > ${FILE%%.gfa}.fa	 
 done 		  
-		  
-
-		  
+	
