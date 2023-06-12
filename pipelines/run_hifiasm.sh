@@ -1,10 +1,5 @@
 #!/usr/bin/bash
 
-#====================================================
-#### Perform    Hifi + Hi-C  assembling  with  hifiasm
-#=======================================================
-
-
 ############ INPUT DATA #####
 
 # HiFi reads 
@@ -22,8 +17,20 @@ echo "===== PROCESSING $AB : Pool of all clean HiFi samples ========"
 
 
 
-/usr/bin/time -o out.ABrun.time.ram.txt -v \
+
+## Hifiasm regular mode
+/usr/bin/time -o out.AB.reg.run.time.ram.txt -v \
 ./hifiasm -o AB.asm \
+          -t 91 \
+		  --hg-size 1000m \
+		  --primary -l3 \
+		  --hom-cov 134  \
+		  $AB
+
+
+## Hifiasm + Hi-C mode
+/usr/bin/time -o out.AB.HiC.run.time.ram.txt -v \
+./hifiasm -o AB.hic.asm \
           -t 91 \
 		  --hg-size 1000m \
 		  --hom-cov 134 -l3  -s 0.35 \
@@ -37,5 +44,7 @@ echo "===== PROCESSING $AB : Pool of all clean HiFi samples ========"
 ## Obtain assemblies FASTA files
 for FILE in *ctg.gfa; do
 awk '/^S/{print ">"$2;print $3}' $FILE > ${FILE%%.gfa}.fa	 
+done 		  
 		  
+
 		  
