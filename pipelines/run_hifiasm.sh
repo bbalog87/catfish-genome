@@ -3,11 +3,11 @@
 ############ INPUT DATA #####
 
 # HiFi reads 
-AB=/projekte/I3-PikeperchAssembly/CATFISH-PROJECT/catfish.HiFi.clean.fa.gz
+AB=catfish.HiFi.clean.fa.gz
 
 ## Hi-C reads data
-HICreads1=/projekte/I3-PikeperchAssembly/CATFISH-PROJECT/21108D-01-01-01_S108_L001_R1_001.fastq.gz
-HICreads2=/projekte/I3-PikeperchAssembly/CATFISH-PROJECT/21108D-01-01-01_S108_L001_R2_001.fastq.gz
+HICreads1=21108D-01-01-01_S108_L001_R1_001.fastq.gz
+HICreads2=21108D-01-01-01_S108_L001_R2_001.fastq.gz
 
 
 ## Hifiasm assembly pipeline
@@ -47,4 +47,5 @@ echo "===== PROCESSING $AB : Pool of all clean HiFi samples ========"
 for FILE in *ctg.gfa; do
 awk '/^S/{print ">"$2;print $3}' $FILE > ${FILE%%.gfa}.fa	 
 done 		  
-	
+		  
+
