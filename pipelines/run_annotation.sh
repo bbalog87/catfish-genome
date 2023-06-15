@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Functional annoation using funannotate pipeline
+## Functional annotation using funannotate pipeline
 funannotate predict -i CGAR.genome.fa.masked \
                     -o CGAR_Funannotate200422 \
 					-s Clarias --isolate MV21 \
