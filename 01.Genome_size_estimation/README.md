@@ -7,7 +7,7 @@
 
 ### Genome size estimation
 * jellyfish v1.1.10
-* Rscript v2.15.2
+* Rscript v4.3.0
 
 
 
